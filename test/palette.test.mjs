@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { convertTheme, isHerdrLight, mergeTheme, opaque, originalPalette, readJsonc } from "../scripts/palette.mjs";
+import { convertTheme, isHerdrLight, mergeTheme, opaque, originalPalette, paletteFileName, readJsonc } from "../scripts/palette.mjs";
 
 test("JSONC preserves strings and accepts comments and trailing commas", () => {
   assert.deepEqual(readJsonc('{"url":"https://example.test",/* note */"x":1,}', "fixture"),
@@ -71,6 +71,13 @@ test("native appearance follows terminal background rather than source UI labels
   } }, "vs");
   assert.equal(isHerdrLight(palette.background), false);
   assert.equal(isHerdrLight("#f0f2f5"), true);
+});
+
+test("picker filenames use theme labels without collection branding", () => {
+  assert.equal(paletteFileName("Bearded Theme Monokai Metallian"), "monokai-metallian.json");
+  assert.equal(paletteFileName("Bearded-Bear Bearded-Theme Solarized"), "solarized.json");
+  assert.equal(paletteFileName("Bearded Themanopia (Experimental)"), "themanopia-experimental.json");
+  assert.equal(paletteFileName("GitHub Dark"), "github-dark.json");
 });
 
 test("independent originals cover both appearances and deliberate contrast variants", () => {

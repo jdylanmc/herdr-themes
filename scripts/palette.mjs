@@ -84,6 +84,11 @@ export function slug(label) {
   return label.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+export function paletteFileName(label) {
+  const name = label.replace(/^(?:bearded(?:[\s-]*bear)?(?:[\s-]+theme)?[\s-]+)+/i, "");
+  return `${slug(name)}.json`;
+}
+
 export function isHerdrLight(background) {
   return [0, 2, 4].reduce((sum, index, channel) =>
     sum + parseInt(background.slice(index + 1, index + 3), 16) / 255 *

@@ -1,7 +1,7 @@
 # Herdr Themes
 
 Palette-only themes for the native Herdr app: Son of Obsidian, original
-Tokyo Night, Nord, Nebula in dark and light appearances, and the 143-palette
+Tokyo Night, Nord, Nebula in dark and light appearances, and the 141-palette
 VS Code top-20 expansion documented in catalog/README.md.
 
 ![Palette swatches, not an app screenshot](preview.png)

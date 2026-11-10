@@ -2,12 +2,13 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { readJsonc, slug } from "./palette.mjs";
+import { paletteFileName, readJsonc } from "./palette.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const cache = process.argv[2];
 if (!cache) throw new Error("Usage: node scripts/collect-vscode.mjs <captured-source-directory>");
 const snapshot = JSON.parse(await readFile(path.join(cache, "snapshot.json"), "utf8"));
+snapshot.keepExistingNames = ["atom-one-dark.json", "tokyo-night.json"];
 const restricted = new Set(["Equinusocio.vsc-material-theme", "monokai.theme-monokai-pro-vscode"]);
 const approved = new Set([
   "ms-vscode.cpptools-themes", "ms-vscode.PowerShell", "GitHub.github-vscode-theme",
@@ -46,7 +47,7 @@ for (const entry of snapshot.entries) {
   entry.variants = manifest.contributes.themes.map((theme) => ({
     label: theme.label ?? theme.id, uiTheme: theme.uiTheme,
     path: path.posix.normalize(theme.path),
-    file: `${slug(entry.id.split(".")[0]).replace(/-vscode$/, "")}-${slug(theme.label ?? theme.id)}.json`,
+    file: paletteFileName(theme.label ?? theme.id),
   }));
   if (restricted.has(entry.id)) {
     console.log(`${entry.id}: metadata only; no theme colors extracted`);

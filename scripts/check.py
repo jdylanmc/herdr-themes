@@ -16,7 +16,7 @@ catalog = json.loads((root / "catalog/vscode-top-20.json").read_text())
 snapshot = json.loads((root / "sources/vscode-top-20.json").read_text())
 assert len(snapshot["entries"]) == 20, "Expected 20 ranked listings"
 assert [entry["rank"] for entry in snapshot["entries"]] == list(range(1, 21))
-assert len(catalog["palettes"]) == sum(
+assert len(catalog["palettes"]) + len(catalog["omitted"]) == sum(
     len(entry["variants"]) for entry in snapshot["entries"]
 ), "Missing contributed variants"
 generated = [Path(palette["file"]).stem for palette in catalog["palettes"]]
@@ -25,6 +25,8 @@ expected.update(generated)
 for entry in snapshot["entries"]:
     assert sum(
         palette["extension"] == entry["id"] for palette in catalog["palettes"]
+    ) + sum(
+        omitted["extension"] == entry["id"] for omitted in catalog["omitted"]
     ) == len(entry["variants"]), f"Missing variants for {entry['id']}"
     if "sourceDir" in entry:
         assert all((root / file).is_file() for file in entry["licenses"])
@@ -33,6 +35,10 @@ for entry in snapshot["entries"]:
         assert hashlib.sha256((root / source["archive"]).read_bytes()).hexdigest() == source["sha256"]
 files = sorted((root / "themes").glob("*.json"))
 assert {path.stem for path in files} == expected, "Unexpected theme files"
+gpl_files = {
+    palette["file"] for palette in catalog["palettes"]
+    if palette["license"] == "GPL-3.0-only"
+}
 
 for path in files:
     theme = json.loads(path.read_text())
@@ -50,6 +56,6 @@ for path in files:
     ), f"{path.name}: invalid color"
     assert theme["foreground"] != theme["background"], path.name
     assert theme["selection"] != theme["background"], path.name
-    if "bearded" in path.stem:
+    if path.name in gpl_files:
         assert "GPL-3.0-only" in Path(str(path) + ".license").read_text(), path.name
 print(f"OK: {len(files)} palettes; complete coverage of all 20 ranked listings")

@@ -2,11 +2,12 @@
 
 Source order: https://vscodethemes.com/?sort=installs, captured 2026-11-10T16:00:19.009Z.
 The rank is the site's extension-listing order, not an ordering of individual variants.
-All dark, light and high-contrast contributions in each frozen package are included.
+All dark, light and high-contrast contributions are accounted for; duplicate imports are omitted.
 
-143 palettes: 123 licensed ports and 20 independent original replacements.
+141 palettes: 121 licensed ports and 20 independent original replacements.
 Font/italic variants keep separate names even when they have identical color palettes.
 The five pre-existing themes remain unchanged and are not part of this count.
+2 duplicate imports are omitted to keep the existing Atom One Dark and Tokyo Night palettes.
 
 | Rank | Listing | Version | Variants | Treatment |
 | --- | --- | --- | --- | --- |
@@ -38,43 +39,43 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 ### 1. C/C++ Themes
 
-- Dark (Visual Studio - C/C++): [`ms-dark-visual-studio-c-c.json`](../themes/ms-dark-visual-studio-c-c.json) (dark)
-- 2017 Dark (Visual Studio - C/C++): [`ms-2017-dark-visual-studio-c-c.json`](../themes/ms-2017-dark-visual-studio-c-c.json) (dark)
-- Light (Visual Studio - C/C++): [`ms-light-visual-studio-c-c.json`](../themes/ms-light-visual-studio-c-c.json) (light)
-- 2017 Light (Visual Studio - C/C++): [`ms-2017-light-visual-studio-c-c.json`](../themes/ms-2017-light-visual-studio-c-c.json) (light)
+- Dark (Visual Studio - C/C++): [`dark-visual-studio-c-c.json`](../themes/dark-visual-studio-c-c.json) (dark)
+- 2017 Dark (Visual Studio - C/C++): [`2017-dark-visual-studio-c-c.json`](../themes/2017-dark-visual-studio-c-c.json) (dark)
+- Light (Visual Studio - C/C++): [`light-visual-studio-c-c.json`](../themes/light-visual-studio-c-c.json) (light)
+- 2017 Light (Visual Studio - C/C++): [`2017-light-visual-studio-c-c.json`](../themes/2017-light-visual-studio-c-c.json) (light)
 
 ### 2. PowerShell
 
-- PowerShell ISE: [`ms-powershell-ise.json`](../themes/ms-powershell-ise.json) (dark; terminal background differs from source UI appearance)
+- PowerShell ISE: [`powershell-ise.json`](../themes/powershell-ise.json) (dark; terminal background differs from source UI appearance)
 
 ### 3. GitHub Theme
 
-- GitHub Light Default: [`github-github-light-default.json`](../themes/github-github-light-default.json) (light)
-- GitHub Light High Contrast: [`github-github-light-high-contrast.json`](../themes/github-github-light-high-contrast.json) (light)
-- GitHub Light Colorblind (Beta): [`github-github-light-colorblind-beta.json`](../themes/github-github-light-colorblind-beta.json) (light)
-- GitHub Dark Default: [`github-github-dark-default.json`](../themes/github-github-dark-default.json) (dark)
-- GitHub Dark High Contrast: [`github-github-dark-high-contrast.json`](../themes/github-github-dark-high-contrast.json) (dark)
-- GitHub Dark Colorblind (Beta): [`github-github-dark-colorblind-beta.json`](../themes/github-github-dark-colorblind-beta.json) (dark)
-- GitHub Dark Dimmed: [`github-github-dark-dimmed.json`](../themes/github-github-dark-dimmed.json) (dark)
-- GitHub Light: [`github-github-light.json`](../themes/github-github-light.json) (light)
-- GitHub Dark: [`github-github-dark.json`](../themes/github-github-dark.json) (dark)
+- GitHub Light Default: [`github-light-default.json`](../themes/github-light-default.json) (light)
+- GitHub Light High Contrast: [`github-light-high-contrast.json`](../themes/github-light-high-contrast.json) (light)
+- GitHub Light Colorblind (Beta): [`github-light-colorblind-beta.json`](../themes/github-light-colorblind-beta.json) (light)
+- GitHub Dark Default: [`github-dark-default.json`](../themes/github-dark-default.json) (dark)
+- GitHub Dark High Contrast: [`github-dark-high-contrast.json`](../themes/github-dark-high-contrast.json) (dark)
+- GitHub Dark Colorblind (Beta): [`github-dark-colorblind-beta.json`](../themes/github-dark-colorblind-beta.json) (dark)
+- GitHub Dark Dimmed: [`github-dark-dimmed.json`](../themes/github-dark-dimmed.json) (dark)
+- GitHub Light: [`github-light.json`](../themes/github-light.json) (light)
+- GitHub Dark: [`github-dark.json`](../themes/github-dark.json) (dark)
 
 ### 4. One Dark Pro
 
-- One Dark Pro: [`zhuangtongfa-one-dark-pro.json`](../themes/zhuangtongfa-one-dark-pro.json) (dark)
-- One Dark Pro Flat: [`zhuangtongfa-one-dark-pro-flat.json`](../themes/zhuangtongfa-one-dark-pro-flat.json) (dark)
-- One Dark Pro Darker: [`zhuangtongfa-one-dark-pro-darker.json`](../themes/zhuangtongfa-one-dark-pro-darker.json) (dark)
-- One Dark Pro Mix: [`zhuangtongfa-one-dark-pro-mix.json`](../themes/zhuangtongfa-one-dark-pro-mix.json) (dark)
-- One Dark Pro Night Flat: [`zhuangtongfa-one-dark-pro-night-flat.json`](../themes/zhuangtongfa-one-dark-pro-night-flat.json) (dark)
+- One Dark Pro: [`one-dark-pro.json`](../themes/one-dark-pro.json) (dark)
+- One Dark Pro Flat: [`one-dark-pro-flat.json`](../themes/one-dark-pro-flat.json) (dark)
+- One Dark Pro Darker: [`one-dark-pro-darker.json`](../themes/one-dark-pro-darker.json) (dark)
+- One Dark Pro Mix: [`one-dark-pro-mix.json`](../themes/one-dark-pro-mix.json) (dark)
+- One Dark Pro Night Flat: [`one-dark-pro-night-flat.json`](../themes/one-dark-pro-night-flat.json) (dark)
 
 ### 5. Dracula Theme Official
 
-- Dracula Theme: [`dracula-theme-dracula-theme.json`](../themes/dracula-theme-dracula-theme.json) (dark)
-- Dracula Theme Soft: [`dracula-theme-dracula-theme-soft.json`](../themes/dracula-theme-dracula-theme-soft.json) (dark)
+- Dracula Theme: [`dracula-theme.json`](../themes/dracula-theme.json) (dark)
+- Dracula Theme Soft: [`dracula-theme-soft.json`](../themes/dracula-theme-soft.json) (dark)
 
 ### 6. Atom One Dark Theme
 
-- Atom One Dark: [`akamud-atom-one-dark.json`](../themes/akamud-atom-one-dark.json) (dark)
+- Atom One Dark: keep existing `atom-one-dark`; duplicate import omitted.
 
 ### 7. Material Theme — Deprecated
 
@@ -93,12 +94,12 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 ### 8. Ayu
 
-- Ayu Light: [`teabyii-ayu-light.json`](../themes/teabyii-ayu-light.json) (light)
-- Ayu Mirage: [`teabyii-ayu-mirage.json`](../themes/teabyii-ayu-mirage.json) (dark)
-- Ayu Dark: [`teabyii-ayu-dark.json`](../themes/teabyii-ayu-dark.json) (dark)
-- Ayu Light Unbordered: [`teabyii-ayu-light-unbordered.json`](../themes/teabyii-ayu-light-unbordered.json) (light)
-- Ayu Mirage Unbordered: [`teabyii-ayu-mirage-unbordered.json`](../themes/teabyii-ayu-mirage-unbordered.json) (dark)
-- Ayu Dark Unbordered: [`teabyii-ayu-dark-unbordered.json`](../themes/teabyii-ayu-dark-unbordered.json) (dark)
+- Ayu Light: [`ayu-light.json`](../themes/ayu-light.json) (light)
+- Ayu Mirage: [`ayu-mirage.json`](../themes/ayu-mirage.json) (dark)
+- Ayu Dark: [`ayu-dark.json`](../themes/ayu-dark.json) (dark)
+- Ayu Light Unbordered: [`ayu-light-unbordered.json`](../themes/ayu-light-unbordered.json) (light)
+- Ayu Mirage Unbordered: [`ayu-mirage-unbordered.json`](../themes/ayu-mirage-unbordered.json) (dark)
+- Ayu Dark Unbordered: [`ayu-dark-unbordered.json`](../themes/ayu-dark-unbordered.json) (dark)
 
 ### 9. Monokai Pro
 
@@ -113,131 +114,131 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 ### 10. Winter is Coming Theme
 
-- Winter is Coming (Dark Blue): [`johnpapa-winter-is-coming-dark-blue.json`](../themes/johnpapa-winter-is-coming-dark-blue.json) (dark)
-- Winter is Coming (Dark Blue - No Italics): [`johnpapa-winter-is-coming-dark-blue-no-italics.json`](../themes/johnpapa-winter-is-coming-dark-blue-no-italics.json) (dark)
-- Winter is Coming (Light): [`johnpapa-winter-is-coming-light.json`](../themes/johnpapa-winter-is-coming-light.json) (light)
-- Winter is Coming (Light - No Italics): [`johnpapa-winter-is-coming-light-no-italics.json`](../themes/johnpapa-winter-is-coming-light-no-italics.json) (light)
-- Winter is Coming (Dark Black): [`johnpapa-winter-is-coming-dark-black.json`](../themes/johnpapa-winter-is-coming-dark-black.json) (dark)
-- Winter is Coming (Dark Black - No Italics): [`johnpapa-winter-is-coming-dark-black-no-italics.json`](../themes/johnpapa-winter-is-coming-dark-black-no-italics.json) (dark)
+- Winter is Coming (Dark Blue): [`winter-is-coming-dark-blue.json`](../themes/winter-is-coming-dark-blue.json) (dark)
+- Winter is Coming (Dark Blue - No Italics): [`winter-is-coming-dark-blue-no-italics.json`](../themes/winter-is-coming-dark-blue-no-italics.json) (dark)
+- Winter is Coming (Light): [`winter-is-coming-light.json`](../themes/winter-is-coming-light.json) (light)
+- Winter is Coming (Light - No Italics): [`winter-is-coming-light-no-italics.json`](../themes/winter-is-coming-light-no-italics.json) (light)
+- Winter is Coming (Dark Black): [`winter-is-coming-dark-black.json`](../themes/winter-is-coming-dark-black.json) (dark)
+- Winter is Coming (Dark Black - No Italics): [`winter-is-coming-dark-black-no-italics.json`](../themes/winter-is-coming-dark-black-no-italics.json) (dark)
 
 ### 11. Night Owl
 
-- Night Owl: [`sdras-night-owl.json`](../themes/sdras-night-owl.json) (dark)
-- Night Owl (No Italics): [`sdras-night-owl-no-italics.json`](../themes/sdras-night-owl-no-italics.json) (dark)
-- Night Owl Light: [`sdras-night-owl-light.json`](../themes/sdras-night-owl-light.json) (light)
-- Night Owl Light (No Italics): [`sdras-night-owl-light-no-italics.json`](../themes/sdras-night-owl-light-no-italics.json) (light)
+- Night Owl: [`night-owl.json`](../themes/night-owl.json) (dark)
+- Night Owl (No Italics): [`night-owl-no-italics.json`](../themes/night-owl-no-italics.json) (dark)
+- Night Owl Light: [`night-owl-light.json`](../themes/night-owl-light.json) (light)
+- Night Owl Light (No Italics): [`night-owl-light-no-italics.json`](../themes/night-owl-light-no-italics.json) (light)
 
 ### 12. Tokyo Night
 
-- Tokyo Night: [`enkia-tokyo-night.json`](../themes/enkia-tokyo-night.json) (dark)
-- Tokyo Night Storm: [`enkia-tokyo-night-storm.json`](../themes/enkia-tokyo-night-storm.json) (dark)
-- Tokyo Night Light: [`enkia-tokyo-night-light.json`](../themes/enkia-tokyo-night-light.json) (light)
+- Tokyo Night Storm: [`tokyo-night-storm.json`](../themes/tokyo-night-storm.json) (dark)
+- Tokyo Night Light: [`tokyo-night-light.json`](../themes/tokyo-night-light.json) (light)
+- Tokyo Night: keep existing `tokyo-night`; duplicate import omitted.
 
 ### 13. One Monokai Theme
 
-- One Monokai: [`azemoh-one-monokai.json`](../themes/azemoh-one-monokai.json) (dark)
+- One Monokai: [`one-monokai.json`](../themes/one-monokai.json) (dark)
 
 ### 14. Palenight Theme
 
-- Palenight Theme: [`whizkydee-palenight-theme.json`](../themes/whizkydee-palenight-theme.json) (dark)
-- Palenight Italic: [`whizkydee-palenight-italic.json`](../themes/whizkydee-palenight-italic.json) (dark)
-- Palenight Operator: [`whizkydee-palenight-operator.json`](../themes/whizkydee-palenight-operator.json) (dark)
-- Palenight (Mild Contrast): [`whizkydee-palenight-mild-contrast.json`](../themes/whizkydee-palenight-mild-contrast.json) (dark)
+- Palenight Theme: [`palenight-theme.json`](../themes/palenight-theme.json) (dark)
+- Palenight Italic: [`palenight-italic.json`](../themes/palenight-italic.json) (dark)
+- Palenight Operator: [`palenight-operator.json`](../themes/palenight-operator.json) (dark)
+- Palenight (Mild Contrast): [`palenight-mild-contrast.json`](../themes/palenight-mild-contrast.json) (dark)
 
 ### 15. SynthWave '84
 
-- SynthWave '84: [`robbowen-synthwave-84.json`](../themes/robbowen-synthwave-84.json) (dark)
+- SynthWave '84: [`synthwave-84.json`](../themes/synthwave-84.json) (dark)
 
 ### 16. Shades of Purple
 
-- Shades of Purple: [`ahmadawais-shades-of-purple.json`](../themes/ahmadawais-shades-of-purple.json) (dark)
-- Shades of Purple (Super Dark): [`ahmadawais-shades-of-purple-super-dark.json`](../themes/ahmadawais-shades-of-purple-super-dark.json) (dark)
+- Shades of Purple: [`shades-of-purple.json`](../themes/shades-of-purple.json) (dark)
+- Shades of Purple (Super Dark): [`shades-of-purple-super-dark.json`](../themes/shades-of-purple-super-dark.json) (dark)
 
 ### 17. Cobalt2 Theme Official
 
-- Cobalt2: [`wesbos-cobalt2.json`](../themes/wesbos-cobalt2.json) (dark)
+- Cobalt2: [`cobalt2.json`](../themes/cobalt2.json) (dark)
 
 ### 18. Andromeda
 
-- Andromeda: [`eliverlara-andromeda.json`](../themes/eliverlara-andromeda.json) (dark)
-- Andromeda Bordered: [`eliverlara-andromeda-bordered.json`](../themes/eliverlara-andromeda-bordered.json) (dark)
-- Andromeda Italic Bordered: [`eliverlara-andromeda-italic-bordered.json`](../themes/eliverlara-andromeda-italic-bordered.json) (dark)
-- Andromeda Italic: [`eliverlara-andromeda-italic.json`](../themes/eliverlara-andromeda-italic.json) (dark)
-- Andromeda Colorizer: [`eliverlara-andromeda-colorizer.json`](../themes/eliverlara-andromeda-colorizer.json) (dark)
+- Andromeda: [`andromeda.json`](../themes/andromeda.json) (dark)
+- Andromeda Bordered: [`andromeda-bordered.json`](../themes/andromeda-bordered.json) (dark)
+- Andromeda Italic Bordered: [`andromeda-italic-bordered.json`](../themes/andromeda-italic-bordered.json) (dark)
+- Andromeda Italic: [`andromeda-italic.json`](../themes/andromeda-italic.json) (dark)
+- Andromeda Colorizer: [`andromeda-colorizer.json`](../themes/andromeda-colorizer.json) (dark)
 
 ### 19. Theme
 
-- Theme: [`tal7aouy-theme.json`](../themes/tal7aouy-theme.json) (dark)
-- Theme Flat: [`tal7aouy-theme-flat.json`](../themes/tal7aouy-theme-flat.json) (dark)
-- Theme Mix: [`tal7aouy-theme-mix.json`](../themes/tal7aouy-theme-mix.json) (dark)
-- Theme Darker: [`tal7aouy-theme-darker.json`](../themes/tal7aouy-theme-darker.json) (dark)
+- Theme: [`theme.json`](../themes/theme.json) (dark)
+- Theme Flat: [`theme-flat.json`](../themes/theme-flat.json) (dark)
+- Theme Mix: [`theme-mix.json`](../themes/theme-mix.json) (dark)
+- Theme Darker: [`theme-darker.json`](../themes/theme-darker.json) (dark)
 
 ### 20. Bearded Theme
 
-- Bearded Theme Monokai Metallian: [`beardedbear-bearded-theme-monokai-metallian.json`](../themes/beardedbear-bearded-theme-monokai-metallian.json) (dark)
-- Bearded Theme Monokai Terra: [`beardedbear-bearded-theme-monokai-terra.json`](../themes/beardedbear-bearded-theme-monokai-terra.json) (dark)
-- Bearded Theme Monokai Stone: [`beardedbear-bearded-theme-monokai-stone.json`](../themes/beardedbear-bearded-theme-monokai-stone.json) (dark)
-- Bearded Theme Monokai Black: [`beardedbear-bearded-theme-monokai-black.json`](../themes/beardedbear-bearded-theme-monokai-black.json) (dark)
-- Bearded Theme Monokai Reversed: [`beardedbear-bearded-theme-monokai-reversed.json`](../themes/beardedbear-bearded-theme-monokai-reversed.json) (dark)
-- Bearded Theme Solarized: [`beardedbear-bearded-theme-solarized.json`](../themes/beardedbear-bearded-theme-solarized.json) (dark)
-- Bearded Theme Solarized Reversed: [`beardedbear-bearded-theme-solarized-reversed.json`](../themes/beardedbear-bearded-theme-solarized-reversed.json) (dark)
-- Bearded Theme Solarized Light: [`beardedbear-bearded-theme-solarized-light.json`](../themes/beardedbear-bearded-theme-solarized-light.json) (light)
-- Bearded Theme Oceanic: [`beardedbear-bearded-theme-oceanic.json`](../themes/beardedbear-bearded-theme-oceanic.json) (dark)
-- Bearded Theme Oceanic Reversed: [`beardedbear-bearded-theme-oceanic-reversed.json`](../themes/beardedbear-bearded-theme-oceanic-reversed.json) (dark)
-- Bearded Theme Arc: [`beardedbear-bearded-theme-arc.json`](../themes/beardedbear-bearded-theme-arc.json) (dark)
-- Bearded Theme Arc Eggplant: [`beardedbear-bearded-theme-arc-eggplant.json`](../themes/beardedbear-bearded-theme-arc-eggplant.json) (dark)
-- Bearded Theme Arc EolStorm: [`beardedbear-bearded-theme-arc-eolstorm.json`](../themes/beardedbear-bearded-theme-arc-eolstorm.json) (dark)
-- Bearded Theme Arc Blueberry: [`beardedbear-bearded-theme-arc-blueberry.json`](../themes/beardedbear-bearded-theme-arc-blueberry.json) (dark)
-- Bearded Theme Arc Reversed: [`beardedbear-bearded-theme-arc-reversed.json`](../themes/beardedbear-bearded-theme-arc-reversed.json) (dark)
-- Bearded Theme Black & Amethyst: [`beardedbear-bearded-theme-black-amethyst.json`](../themes/beardedbear-bearded-theme-black-amethyst.json) (dark)
-- Bearded Theme Black & Amethyst Soft: [`beardedbear-bearded-theme-black-amethyst-soft.json`](../themes/beardedbear-bearded-theme-black-amethyst-soft.json) (dark)
-- Bearded Theme Black & Diamond: [`beardedbear-bearded-theme-black-diamond.json`](../themes/beardedbear-bearded-theme-black-diamond.json) (dark)
-- Bearded Theme Black & Diamond Soft: [`beardedbear-bearded-theme-black-diamond-soft.json`](../themes/beardedbear-bearded-theme-black-diamond-soft.json) (dark)
-- Bearded Theme Black & Emerald: [`beardedbear-bearded-theme-black-emerald.json`](../themes/beardedbear-bearded-theme-black-emerald.json) (dark)
-- Bearded Theme Black & Emerald Soft: [`beardedbear-bearded-theme-black-emerald-soft.json`](../themes/beardedbear-bearded-theme-black-emerald-soft.json) (dark)
-- Bearded Theme Black & Gold: [`beardedbear-bearded-theme-black-gold.json`](../themes/beardedbear-bearded-theme-black-gold.json) (dark)
-- Bearded Theme Black & Gold Soft: [`beardedbear-bearded-theme-black-gold-soft.json`](../themes/beardedbear-bearded-theme-black-gold-soft.json) (dark)
-- Bearded Theme Black & Ruby: [`beardedbear-bearded-theme-black-ruby.json`](../themes/beardedbear-bearded-theme-black-ruby.json) (dark)
-- Bearded Theme Black & Ruby Soft: [`beardedbear-bearded-theme-black-ruby-soft.json`](../themes/beardedbear-bearded-theme-black-ruby-soft.json) (dark)
-- Bearded Theme Stained Purple: [`beardedbear-bearded-theme-stained-purple.json`](../themes/beardedbear-bearded-theme-stained-purple.json) (dark)
-- Bearded Theme Stained Blue: [`beardedbear-bearded-theme-stained-blue.json`](../themes/beardedbear-bearded-theme-stained-blue.json) (dark)
-- Bearded Theme Vivid Purple: [`beardedbear-bearded-theme-vivid-purple.json`](../themes/beardedbear-bearded-theme-vivid-purple.json) (dark)
-- Bearded Theme Vivid Black: [`beardedbear-bearded-theme-vivid-black.json`](../themes/beardedbear-bearded-theme-vivid-black.json) (dark)
-- Bearded Theme Vivid Light: [`beardedbear-bearded-theme-vivid-light.json`](../themes/beardedbear-bearded-theme-vivid-light.json) (light)
-- Bearded Theme feat. Will: [`beardedbear-bearded-theme-feat-will.json`](../themes/beardedbear-bearded-theme-feat-will.json) (dark)
-- Bearded Theme feat. Gold D Raynh: [`beardedbear-bearded-theme-feat-gold-d-raynh.json`](../themes/beardedbear-bearded-theme-feat-gold-d-raynh.json) (dark)
-- Bearded Theme feat. Melle Julie: [`beardedbear-bearded-theme-feat-melle-julie.json`](../themes/beardedbear-bearded-theme-feat-melle-julie.json) (dark)
-- Bearded Theme feat. Melle Julie Light: [`beardedbear-bearded-theme-feat-melle-julie-light.json`](../themes/beardedbear-bearded-theme-feat-melle-julie-light.json) (light)
-- Bearded Theme feat. Mintshake D Raynh: [`beardedbear-bearded-theme-feat-mintshake-d-raynh.json`](../themes/beardedbear-bearded-theme-feat-mintshake-d-raynh.json) (light)
-- Bearded Theme feat. WebDevCody: [`beardedbear-bearded-theme-feat-webdevcody.json`](../themes/beardedbear-bearded-theme-feat-webdevcody.json) (dark)
-- Bearded Theme Earth: [`beardedbear-bearded-theme-earth.json`](../themes/beardedbear-bearded-theme-earth.json) (dark)
-- Bearded Theme Coffee: [`beardedbear-bearded-theme-coffee.json`](../themes/beardedbear-bearded-theme-coffee.json) (dark)
-- Bearded Theme Coffee Reversed: [`beardedbear-bearded-theme-coffee-reversed.json`](../themes/beardedbear-bearded-theme-coffee-reversed.json) (dark)
-- Bearded Theme Coffee Cream: [`beardedbear-bearded-theme-coffee-cream.json`](../themes/beardedbear-bearded-theme-coffee-cream.json) (light)
-- Bearded Theme Void: [`beardedbear-bearded-theme-void.json`](../themes/beardedbear-bearded-theme-void.json) (dark)
-- Bearded Theme Altica: [`beardedbear-bearded-theme-altica.json`](../themes/beardedbear-bearded-theme-altica.json) (dark)
-- Bearded Theme Anthracite: [`beardedbear-bearded-theme-anthracite.json`](../themes/beardedbear-bearded-theme-anthracite.json) (dark)
-- Bearded Theme Light: [`beardedbear-bearded-theme-light.json`](../themes/beardedbear-bearded-theme-light.json) (light)
-- Bearded Theme Surprising Eggplant: [`beardedbear-bearded-theme-surprising-eggplant.json`](../themes/beardedbear-bearded-theme-surprising-eggplant.json) (dark)
-- Bearded Theme Surprising Blueberry: [`beardedbear-bearded-theme-surprising-blueberry.json`](../themes/beardedbear-bearded-theme-surprising-blueberry.json) (dark)
-- Bearded Theme Surprising Watermelon: [`beardedbear-bearded-theme-surprising-watermelon.json`](../themes/beardedbear-bearded-theme-surprising-watermelon.json) (dark)
-- Bearded Theme HC Ebony: [`beardedbear-bearded-theme-hc-ebony.json`](../themes/beardedbear-bearded-theme-hc-ebony.json) (dark)
-- Bearded Theme HC Midnight Void: [`beardedbear-bearded-theme-hc-midnight-void.json`](../themes/beardedbear-bearded-theme-hc-midnight-void.json) (dark)
-- Bearded Theme HC Wonderland Wood: [`beardedbear-bearded-theme-hc-wonderland-wood.json`](../themes/beardedbear-bearded-theme-hc-wonderland-wood.json) (dark)
-- Bearded Theme HC Brewing Storm: [`beardedbear-bearded-theme-hc-brewing-storm.json`](../themes/beardedbear-bearded-theme-hc-brewing-storm.json) (dark)
-- Bearded Theme HC Minuit: [`beardedbear-bearded-theme-hc-minuit.json`](../themes/beardedbear-bearded-theme-hc-minuit.json) (dark)
-- Bearded Theme HC Chocolate Espresso: [`beardedbear-bearded-theme-hc-chocolate-espresso.json`](../themes/beardedbear-bearded-theme-hc-chocolate-espresso.json) (dark)
-- Bearded Theme HC Flurry: [`beardedbear-bearded-theme-hc-flurry.json`](../themes/beardedbear-bearded-theme-hc-flurry.json) (light; terminal background differs from source UI appearance)
-- Bearded Theme Milkshake Raspberry: [`beardedbear-bearded-theme-milkshake-raspberry.json`](../themes/beardedbear-bearded-theme-milkshake-raspberry.json) (light; terminal background differs from source UI appearance)
-- Bearded Theme Milkshake Blueberry: [`beardedbear-bearded-theme-milkshake-blueberry.json`](../themes/beardedbear-bearded-theme-milkshake-blueberry.json) (light; terminal background differs from source UI appearance)
-- Bearded Theme Milkshake Mango: [`beardedbear-bearded-theme-milkshake-mango.json`](../themes/beardedbear-bearded-theme-milkshake-mango.json) (light; terminal background differs from source UI appearance)
-- Bearded Theme Milkshake Mint: [`beardedbear-bearded-theme-milkshake-mint.json`](../themes/beardedbear-bearded-theme-milkshake-mint.json) (light; terminal background differs from source UI appearance)
-- Bearded Theme Milkshake Vanilla Banana: [`beardedbear-bearded-theme-milkshake-vanilla-banana.json`](../themes/beardedbear-bearded-theme-milkshake-vanilla-banana.json) (light; terminal background differs from source UI appearance)
-- Bearded Themanopia (Experimental): [`beardedbear-bearded-themanopia-experimental.json`](../themes/beardedbear-bearded-themanopia-experimental.json) (dark)
-- Bearded Theme Aquarelle Cymbidium: [`beardedbear-bearded-theme-aquarelle-cymbidium.json`](../themes/beardedbear-bearded-theme-aquarelle-cymbidium.json) (dark)
-- Bearded Theme Aquarelle Hydrangea: [`beardedbear-bearded-theme-aquarelle-hydrangea.json`](../themes/beardedbear-bearded-theme-aquarelle-hydrangea.json) (dark)
-- Bearded Theme Aquarelle Lilac: [`beardedbear-bearded-theme-aquarelle-lilac.json`](../themes/beardedbear-bearded-theme-aquarelle-lilac.json) (dark)
-- Bearded Theme OLED (Experimental): [`beardedbear-bearded-theme-oled-experimental.json`](../themes/beardedbear-bearded-theme-oled-experimental.json) (dark)
+- Bearded Theme Monokai Metallian: [`monokai-metallian.json`](../themes/monokai-metallian.json) (dark)
+- Bearded Theme Monokai Terra: [`monokai-terra.json`](../themes/monokai-terra.json) (dark)
+- Bearded Theme Monokai Stone: [`monokai-stone.json`](../themes/monokai-stone.json) (dark)
+- Bearded Theme Monokai Black: [`monokai-black.json`](../themes/monokai-black.json) (dark)
+- Bearded Theme Monokai Reversed: [`monokai-reversed.json`](../themes/monokai-reversed.json) (dark)
+- Bearded Theme Solarized: [`solarized.json`](../themes/solarized.json) (dark)
+- Bearded Theme Solarized Reversed: [`solarized-reversed.json`](../themes/solarized-reversed.json) (dark)
+- Bearded Theme Solarized Light: [`solarized-light.json`](../themes/solarized-light.json) (light)
+- Bearded Theme Oceanic: [`oceanic.json`](../themes/oceanic.json) (dark)
+- Bearded Theme Oceanic Reversed: [`oceanic-reversed.json`](../themes/oceanic-reversed.json) (dark)
+- Bearded Theme Arc: [`arc.json`](../themes/arc.json) (dark)
+- Bearded Theme Arc Eggplant: [`arc-eggplant.json`](../themes/arc-eggplant.json) (dark)
+- Bearded Theme Arc EolStorm: [`arc-eolstorm.json`](../themes/arc-eolstorm.json) (dark)
+- Bearded Theme Arc Blueberry: [`arc-blueberry.json`](../themes/arc-blueberry.json) (dark)
+- Bearded Theme Arc Reversed: [`arc-reversed.json`](../themes/arc-reversed.json) (dark)
+- Bearded Theme Black & Amethyst: [`black-amethyst.json`](../themes/black-amethyst.json) (dark)
+- Bearded Theme Black & Amethyst Soft: [`black-amethyst-soft.json`](../themes/black-amethyst-soft.json) (dark)
+- Bearded Theme Black & Diamond: [`black-diamond.json`](../themes/black-diamond.json) (dark)
+- Bearded Theme Black & Diamond Soft: [`black-diamond-soft.json`](../themes/black-diamond-soft.json) (dark)
+- Bearded Theme Black & Emerald: [`black-emerald.json`](../themes/black-emerald.json) (dark)
+- Bearded Theme Black & Emerald Soft: [`black-emerald-soft.json`](../themes/black-emerald-soft.json) (dark)
+- Bearded Theme Black & Gold: [`black-gold.json`](../themes/black-gold.json) (dark)
+- Bearded Theme Black & Gold Soft: [`black-gold-soft.json`](../themes/black-gold-soft.json) (dark)
+- Bearded Theme Black & Ruby: [`black-ruby.json`](../themes/black-ruby.json) (dark)
+- Bearded Theme Black & Ruby Soft: [`black-ruby-soft.json`](../themes/black-ruby-soft.json) (dark)
+- Bearded Theme Stained Purple: [`stained-purple.json`](../themes/stained-purple.json) (dark)
+- Bearded Theme Stained Blue: [`stained-blue.json`](../themes/stained-blue.json) (dark)
+- Bearded Theme Vivid Purple: [`vivid-purple.json`](../themes/vivid-purple.json) (dark)
+- Bearded Theme Vivid Black: [`vivid-black.json`](../themes/vivid-black.json) (dark)
+- Bearded Theme Vivid Light: [`vivid-light.json`](../themes/vivid-light.json) (light)
+- Bearded Theme feat. Will: [`feat-will.json`](../themes/feat-will.json) (dark)
+- Bearded Theme feat. Gold D Raynh: [`feat-gold-d-raynh.json`](../themes/feat-gold-d-raynh.json) (dark)
+- Bearded Theme feat. Melle Julie: [`feat-melle-julie.json`](../themes/feat-melle-julie.json) (dark)
+- Bearded Theme feat. Melle Julie Light: [`feat-melle-julie-light.json`](../themes/feat-melle-julie-light.json) (light)
+- Bearded Theme feat. Mintshake D Raynh: [`feat-mintshake-d-raynh.json`](../themes/feat-mintshake-d-raynh.json) (light)
+- Bearded Theme feat. WebDevCody: [`feat-webdevcody.json`](../themes/feat-webdevcody.json) (dark)
+- Bearded Theme Earth: [`earth.json`](../themes/earth.json) (dark)
+- Bearded Theme Coffee: [`coffee.json`](../themes/coffee.json) (dark)
+- Bearded Theme Coffee Reversed: [`coffee-reversed.json`](../themes/coffee-reversed.json) (dark)
+- Bearded Theme Coffee Cream: [`coffee-cream.json`](../themes/coffee-cream.json) (light)
+- Bearded Theme Void: [`void.json`](../themes/void.json) (dark)
+- Bearded Theme Altica: [`altica.json`](../themes/altica.json) (dark)
+- Bearded Theme Anthracite: [`anthracite.json`](../themes/anthracite.json) (dark)
+- Bearded Theme Light: [`light.json`](../themes/light.json) (light)
+- Bearded Theme Surprising Eggplant: [`surprising-eggplant.json`](../themes/surprising-eggplant.json) (dark)
+- Bearded Theme Surprising Blueberry: [`surprising-blueberry.json`](../themes/surprising-blueberry.json) (dark)
+- Bearded Theme Surprising Watermelon: [`surprising-watermelon.json`](../themes/surprising-watermelon.json) (dark)
+- Bearded Theme HC Ebony: [`hc-ebony.json`](../themes/hc-ebony.json) (dark)
+- Bearded Theme HC Midnight Void: [`hc-midnight-void.json`](../themes/hc-midnight-void.json) (dark)
+- Bearded Theme HC Wonderland Wood: [`hc-wonderland-wood.json`](../themes/hc-wonderland-wood.json) (dark)
+- Bearded Theme HC Brewing Storm: [`hc-brewing-storm.json`](../themes/hc-brewing-storm.json) (dark)
+- Bearded Theme HC Minuit: [`hc-minuit.json`](../themes/hc-minuit.json) (dark)
+- Bearded Theme HC Chocolate Espresso: [`hc-chocolate-espresso.json`](../themes/hc-chocolate-espresso.json) (dark)
+- Bearded Theme HC Flurry: [`hc-flurry.json`](../themes/hc-flurry.json) (light; terminal background differs from source UI appearance)
+- Bearded Theme Milkshake Raspberry: [`milkshake-raspberry.json`](../themes/milkshake-raspberry.json) (light; terminal background differs from source UI appearance)
+- Bearded Theme Milkshake Blueberry: [`milkshake-blueberry.json`](../themes/milkshake-blueberry.json) (light; terminal background differs from source UI appearance)
+- Bearded Theme Milkshake Mango: [`milkshake-mango.json`](../themes/milkshake-mango.json) (light; terminal background differs from source UI appearance)
+- Bearded Theme Milkshake Mint: [`milkshake-mint.json`](../themes/milkshake-mint.json) (light; terminal background differs from source UI appearance)
+- Bearded Theme Milkshake Vanilla Banana: [`milkshake-vanilla-banana.json`](../themes/milkshake-vanilla-banana.json) (light; terminal background differs from source UI appearance)
+- Bearded Themanopia (Experimental): [`themanopia-experimental.json`](../themes/themanopia-experimental.json) (dark)
+- Bearded Theme Aquarelle Cymbidium: [`aquarelle-cymbidium.json`](../themes/aquarelle-cymbidium.json) (dark)
+- Bearded Theme Aquarelle Hydrangea: [`aquarelle-hydrangea.json`](../themes/aquarelle-hydrangea.json) (dark)
+- Bearded Theme Aquarelle Lilac: [`aquarelle-lilac.json`](../themes/aquarelle-lilac.json) (dark)
+- Bearded Theme OLED (Experimental): [`oled-experimental.json`](../themes/oled-experimental.json) (dark)
 
 ## Sources and redistribution
 

@@ -1,15 +1,18 @@
 # Herdr Themes
 
 Palette-only themes for the native [Herdr app](https://herdr.dev).
-Includes the five initial palettes below and **143 additional palettes**
-covering every variant of the [top 20 VS Code Themes listings by installs](https://vscodethemes.com/?sort=installs),
+Includes the five initial palettes below and **141 additional palettes**
+from the [top 20 VS Code Themes listings by installs](https://vscodethemes.com/?sort=installs),
 captured November 10, 2026.
 
-The expansion contains **123 licensed ports** and **20 independently designed
+The expansion contains **121 licensed ports** and **20 independently designed
 originals** in place of Material Theme and Monokai Pro, whose current packages
 do not permit redistribution. The originals are not copies, small color
 perturbations, official variants, or intended visual matches.
 See the [ranked collection](catalog/README.md) for all 20 listings and files.
+Duplicate imports of Atom One Dark and Tokyo Night are omitted to preserve
+the existing palettes. Picker names contain only theme names, not publisher
+names or the Bearded collection prefix; provenance stays in the catalog.
 
 | Theme | Appearance | Style |
 | --- | --- | --- |

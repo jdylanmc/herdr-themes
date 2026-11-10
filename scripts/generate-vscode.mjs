@@ -7,6 +7,8 @@ const root = path.resolve(import.meta.dirname, "..");
 const snapshot = JSON.parse(await readFile(path.join(root, "sources/vscode-top-20.json"), "utf8"));
 const originals = JSON.parse(await readFile(path.join(root, "sources/originals.json"), "utf8"));
 const catalog = [];
+const omitted = [];
+const keepExistingNames = new Set(snapshot.keepExistingNames);
 const names = new Set();
 for (const entry of snapshot.entries) {
   const restricted = entry.license.startsWith("restricted:");
@@ -19,6 +21,14 @@ for (const entry of snapshot.entries) {
     }
   }
   for (const [index, variant] of entry.variants.entries()) {
+    if (!restricted && keepExistingNames.has(variant.file)) {
+      omitted.push({
+        rank: entry.rank, extension: entry.id, sourceLabel: variant.label,
+        existingTheme: path.basename(variant.file, ".json"),
+        reason: "Keep the existing palette; omit the duplicate import.",
+      });
+      continue;
+    }
     const load = async (relative, ancestry = new Set()) => {
       if (path.posix.isAbsolute(relative) || relative.startsWith("../") || relative === "..") {
         throw new Error(`Unsafe include: ${relative}`);
@@ -78,20 +88,22 @@ for (const entry of snapshot.entries) {
 await mkdir(path.join(root, "catalog"), { recursive: true });
 await writeFile(path.join(root, "catalog/vscode-top-20.json"), JSON.stringify({
   rankingUrl: snapshot.rankingUrl, capturedAt: snapshot.capturedAt,
-  description: "All variants of the first 20 extension listings, in site order; restricted entries have independent original replacements.",
+  description: "Variants of the first 20 extension listings, in site order; restricted entries have independent originals, and duplicate imports preserve existing palettes.",
   palettes: catalog,
+  omitted,
 }, null, 2) + "\n");
 const lines = [
   "# VS Code Themes: top 20 by install count",
   "",
   `Source order: ${snapshot.rankingUrl}, captured ${snapshot.capturedAt}.`,
   "The rank is the site's extension-listing order, not an ordering of individual variants.",
-  "All dark, light and high-contrast contributions in each frozen package are included.",
+  "All dark, light and high-contrast contributions are accounted for; duplicate imports are omitted.",
   "",
   `${catalog.length} palettes: ${catalog.filter((entry) => entry.kind === "port").length} licensed ports and ` +
     `${catalog.filter((entry) => entry.kind !== "port").length} independent original replacements.`,
   "Font/italic variants keep separate names even when they have identical color palettes.",
   "The five pre-existing themes remain unchanged and are not part of this count.",
+  `${omitted.length} duplicate imports are omitted to keep the existing Atom One Dark and Tokyo Night palettes.`,
   "",
   "| Rank | Listing | Version | Variants | Treatment |",
   "| --- | --- | --- | --- | --- |",
@@ -110,6 +122,9 @@ for (const entry of snapshot.entries) {
     lines.push(`- ${palette.sourceLabel}: [\`${palette.file}\`](../themes/${palette.file}) ` +
       `(${palette.appearance}${palette.kind === "port" ? "" : "; independent original"}` +
       `${palette.appearanceNote ? "; terminal background differs from source UI appearance" : ""})`);
+  }
+  for (const item of omitted.filter((item) => item.extension === entry.id)) {
+    lines.push(`- ${item.sourceLabel}: keep existing \`${item.existingTheme}\`; duplicate import omitted.`);
   }
   lines.push("");
 }
