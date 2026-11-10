@@ -1,11 +1,11 @@
 # Herdr Themes
 
 Palette-only themes for the native [Herdr app](https://herdr.dev).
-Includes the five initial palettes below and **141 additional palettes**
+Includes the five initial palettes below and **138 additional palettes**
 from the [top 20 VS Code Themes listings by installs](https://vscodethemes.com/?sort=installs),
 captured November 10, 2026.
 
-The expansion contains **121 licensed ports** and **20 independently designed
+The expansion contains **118 licensed ports** and **20 independently designed
 originals** in place of Material Theme and Monokai Pro, whose current packages
 do not permit redistribution. The originals are not copies, small color
 perturbations, official variants, or intended visual matches.
@@ -13,6 +13,8 @@ See the [ranked collection](catalog/README.md) for all 20 listings and files.
 Duplicate imports of Atom One Dark and Tokyo Night are omitted to preserve
 the existing palettes. Picker names contain only theme names, not publisher
 names or the Bearded collection prefix; provenance stays in the catalog.
+Winter is Coming's italic/no-italic variants share one palette for each of its
+three color schemes: Dark Blue, Dark Black and Light.
 
 | Theme | Appearance | Style |
 | --- | --- | --- |
@@ -97,6 +99,6 @@ Missing ANSI entries use relevant syntax colors where available and a standard
 dark/light terminal palette otherwise. Every inferred token is recorded in
 the catalog; these mappings are not claims of upstream-defined terminal colors.
 Translucent colors are composited onto the destination background.
-Italic-only variants remain separately named even where the resulting colors
-are identical. Editor effects, fonts, syntax rules and extension code are not
+Winter is Coming font-only duplicates are omitted after verifying identical
+converted colors. Editor effects, fonts, syntax rules and extension code are not
 installed or executed.

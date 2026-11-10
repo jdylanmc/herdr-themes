@@ -4,10 +4,10 @@ Source order: https://vscodethemes.com/?sort=installs, captured 2026-11-10T16:00
 The rank is the site's extension-listing order, not an ordering of individual variants.
 All dark, light and high-contrast contributions are accounted for; duplicate imports are omitted.
 
-141 palettes: 121 licensed ports and 20 independent original replacements.
-Font/italic variants keep separate names even when they have identical color palettes.
+138 palettes: 118 licensed ports and 20 independent original replacements.
+Winter is Coming italic/no-italic variants share one palette for each distinct color scheme.
 The five pre-existing themes remain unchanged and are not part of this count.
-2 duplicate imports are omitted to keep the existing Atom One Dark and Tokyo Night palettes.
+5 redundant variants are omitted: existing Atom One Dark and Tokyo Night imports, and three Winter is Coming font-only duplicates.
 
 | Rank | Listing | Version | Variants | Treatment |
 | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 ### 6. Atom One Dark Theme
 
-- Atom One Dark: keep existing `atom-one-dark`; duplicate import omitted.
+- Atom One Dark: keep existing `atom-one-dark`. Keep the existing palette; omit the duplicate import.
 
 ### 7. Material Theme — Deprecated
 
@@ -115,11 +115,11 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 ### 10. Winter is Coming Theme
 
 - Winter is Coming (Dark Blue): [`winter-is-coming-dark-blue.json`](../themes/winter-is-coming-dark-blue.json) (dark)
-- Winter is Coming (Dark Blue - No Italics): [`winter-is-coming-dark-blue-no-italics.json`](../themes/winter-is-coming-dark-blue-no-italics.json) (dark)
 - Winter is Coming (Light): [`winter-is-coming-light.json`](../themes/winter-is-coming-light.json) (light)
-- Winter is Coming (Light - No Italics): [`winter-is-coming-light-no-italics.json`](../themes/winter-is-coming-light-no-italics.json) (light)
 - Winter is Coming (Dark Black): [`winter-is-coming-dark-black.json`](../themes/winter-is-coming-dark-black.json) (dark)
-- Winter is Coming (Dark Black - No Italics): [`winter-is-coming-dark-black-no-italics.json`](../themes/winter-is-coming-dark-black-no-italics.json) (dark)
+- Winter is Coming (Dark Blue - No Italics): keep existing `winter-is-coming-dark-blue`. Font-only variant has identical Herdr colors; share the existing palette.
+- Winter is Coming (Light - No Italics): keep existing `winter-is-coming-light`. Font-only variant has identical Herdr colors; share the existing palette.
+- Winter is Coming (Dark Black - No Italics): keep existing `winter-is-coming-dark-black`. Font-only variant has identical Herdr colors; share the existing palette.
 
 ### 11. Night Owl
 
@@ -132,7 +132,7 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 - Tokyo Night Storm: [`tokyo-night-storm.json`](../themes/tokyo-night-storm.json) (dark)
 - Tokyo Night Light: [`tokyo-night-light.json`](../themes/tokyo-night-light.json) (light)
-- Tokyo Night: keep existing `tokyo-night`; duplicate import omitted.
+- Tokyo Night: keep existing `tokyo-night`. Keep the existing palette; omit the duplicate import.
 
 ### 13. One Monokai Theme
 

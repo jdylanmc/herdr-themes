@@ -791,21 +791,6 @@
       "rank": 10,
       "extension": "johnpapa.winteriscoming",
       "version": "1.5.0",
-      "sourceLabel": "Winter is Coming (Dark Blue - No Italics)",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "winter-is-coming-dark-blue-no-italics.json",
-      "kind": "port",
-      "inferred": [
-        "muted"
-      ],
-      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-blue-color-no-italics-theme.json"
-    },
-    {
-      "rank": 10,
-      "extension": "johnpapa.winteriscoming",
-      "version": "1.5.0",
       "sourceLabel": "Winter is Coming (Light)",
       "appearance": "light",
       "sourceUiTheme": "vs",
@@ -821,21 +806,6 @@
       "rank": 10,
       "extension": "johnpapa.winteriscoming",
       "version": "1.5.0",
-      "sourceLabel": "Winter is Coming (Light - No Italics)",
-      "appearance": "light",
-      "sourceUiTheme": "vs",
-      "license": "MIT",
-      "file": "winter-is-coming-light-no-italics.json",
-      "kind": "port",
-      "inferred": [
-        "muted"
-      ],
-      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-light-color-no-italics-theme.json"
-    },
-    {
-      "rank": 10,
-      "extension": "johnpapa.winteriscoming",
-      "version": "1.5.0",
       "sourceLabel": "Winter is Coming (Dark Black)",
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
@@ -846,21 +816,6 @@
         "muted"
       ],
       "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-color-theme.json"
-    },
-    {
-      "rank": 10,
-      "extension": "johnpapa.winteriscoming",
-      "version": "1.5.0",
-      "sourceLabel": "Winter is Coming (Dark Black - No Italics)",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "winter-is-coming-dark-black-no-italics.json",
-      "kind": "port",
-      "inferred": [
-        "muted"
-      ],
-      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-color-no-italics-theme.json"
     },
     {
       "rank": 11,
@@ -2208,6 +2163,30 @@
       "sourceLabel": "Atom One Dark",
       "existingTheme": "atom-one-dark",
       "reason": "Keep the existing palette; omit the duplicate import."
+    },
+    {
+      "rank": 10,
+      "extension": "johnpapa.winteriscoming",
+      "sourceLabel": "Winter is Coming (Dark Blue - No Italics)",
+      "file": "winter-is-coming-dark-blue-no-italics.json",
+      "existingTheme": "winter-is-coming-dark-blue",
+      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 10,
+      "extension": "johnpapa.winteriscoming",
+      "sourceLabel": "Winter is Coming (Light - No Italics)",
+      "file": "winter-is-coming-light-no-italics.json",
+      "existingTheme": "winter-is-coming-light",
+      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 10,
+      "extension": "johnpapa.winteriscoming",
+      "sourceLabel": "Winter is Coming (Dark Black - No Italics)",
+      "file": "winter-is-coming-dark-black-no-italics.json",
+      "existingTheme": "winter-is-coming-dark-black",
+      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
     },
     {
       "rank": 12,

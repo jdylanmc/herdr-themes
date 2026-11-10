@@ -1732,5 +1732,10 @@
   "keepExistingNames": [
     "atom-one-dark.json",
     "tokyo-night.json"
-  ]
+  ],
+  "paletteAliases": {
+    "winter-is-coming-dark-blue-no-italics.json": "winter-is-coming-dark-blue.json",
+    "winter-is-coming-light-no-italics.json": "winter-is-coming-light.json",
+    "winter-is-coming-dark-black-no-italics.json": "winter-is-coming-dark-black.json"
+  }
 }

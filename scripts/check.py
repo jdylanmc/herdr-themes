@@ -21,6 +21,13 @@ assert len(catalog["palettes"]) + len(catalog["omitted"]) == sum(
 ), "Missing contributed variants"
 generated = [Path(palette["file"]).stem for palette in catalog["palettes"]]
 assert len(generated) == len(set(generated)), "Duplicate palette names"
+for alias, target in snapshot["paletteAliases"].items():
+    assert Path(alias).stem not in generated, f"Redundant font variant: {alias}"
+    assert Path(target).stem in generated, f"Missing alias target: {target}"
+    assert any(
+        item.get("file") == alias and item["existingTheme"] == Path(target).stem
+        for item in catalog["omitted"]
+    ), f"Missing alias provenance: {alias}"
 expected.update(generated)
 for entry in snapshot["entries"]:
     assert sum(

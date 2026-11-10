@@ -9,7 +9,7 @@ const originals = JSON.parse(await readFile(path.join(root, "sources/originals.j
 const catalog = [];
 const omitted = [];
 const keepExistingNames = new Set(snapshot.keepExistingNames);
-const names = new Set();
+const names = new Map();
 for (const entry of snapshot.entries) {
   const restricted = entry.license.startsWith("restricted:");
   if (!restricted) {
@@ -63,6 +63,18 @@ for (const entry of snapshot.entries) {
       record.inferred = result.inferred;
       record.source = `${entry.sourceDir}/${variant.path}`;
       palette = result.palette;
+      const alias = snapshot.paletteAliases[record.file];
+      if (alias) {
+        if (names.get(alias) !== JSON.stringify(palette)) {
+          throw new Error(`Alias ${record.file} must match an earlier generated palette: ${alias}`);
+        }
+        omitted.push({
+          rank: entry.rank, extension: entry.id, sourceLabel: variant.label,
+          file: record.file, existingTheme: path.basename(alias, ".json"),
+          reason: "Font-only variant has identical Herdr colors; share the existing palette.",
+        });
+        continue;
+      }
       if (entry.license === "GPL-3.0-only") {
         record.notice = `themes/${record.file}.license`;
         await writeFile(path.join(root, record.notice),
@@ -80,7 +92,7 @@ for (const entry of snapshot.entries) {
       record.appearance = nativeAppearance;
     }
     if (names.has(record.file)) throw new Error(`Duplicate output name: ${record.file}`);
-    names.add(record.file);
+    names.set(record.file, JSON.stringify(palette));
     await writeFile(path.join(root, "themes", record.file), JSON.stringify(palette, null, 2) + "\n");
     catalog.push(record);
   }
@@ -101,9 +113,9 @@ const lines = [
   "",
   `${catalog.length} palettes: ${catalog.filter((entry) => entry.kind === "port").length} licensed ports and ` +
     `${catalog.filter((entry) => entry.kind !== "port").length} independent original replacements.`,
-  "Font/italic variants keep separate names even when they have identical color palettes.",
+  "Winter is Coming italic/no-italic variants share one palette for each distinct color scheme.",
   "The five pre-existing themes remain unchanged and are not part of this count.",
-  `${omitted.length} duplicate imports are omitted to keep the existing Atom One Dark and Tokyo Night palettes.`,
+  `${omitted.length} redundant variants are omitted: existing Atom One Dark and Tokyo Night imports, and three Winter is Coming font-only duplicates.`,
   "",
   "| Rank | Listing | Version | Variants | Treatment |",
   "| --- | --- | --- | --- | --- |",
@@ -124,7 +136,7 @@ for (const entry of snapshot.entries) {
       `${palette.appearanceNote ? "; terminal background differs from source UI appearance" : ""})`);
   }
   for (const item of omitted.filter((item) => item.extension === entry.id)) {
-    lines.push(`- ${item.sourceLabel}: keep existing \`${item.existingTheme}\`; duplicate import omitted.`);
+    lines.push(`- ${item.sourceLabel}: keep existing \`${item.existingTheme}\`. ${item.reason}`);
   }
   lines.push("");
 }
