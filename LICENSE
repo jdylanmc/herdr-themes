@@ -23,3 +23,7 @@ SOFTWARE.
 Upstream theme material retains the licenses in licenses/. In particular,
 themes/tokyo-night.json is derived from Apache-2.0 material; this MIT license
 does not replace its upstream license.
+
+The generated Bearded Theme ports identified in catalog/vscode-top-20.json
+and their corresponding sources are GPL-3.0-only, not MIT. Their license and
+original notices are preserved under licenses/vscode/BeardedBear.beardedtheme/.

@@ -1,7 +1,8 @@
 # Herdr Themes
 
-Five palette-only ports for the native Herdr app: Son of Obsidian, original
-Tokyo Night, Nord, and Nebula in dark and light appearances.
+Palette-only themes for the native Herdr app: Son of Obsidian, original
+Tokyo Night, Nord, Nebula in dark and light appearances, and the 143-palette
+VS Code top-20 expansion documented in catalog/README.md.
 
 ![Palette swatches, not an app screenshot](preview.png)
 
@@ -31,7 +32,7 @@ Nebula can follow system appearance with
 
 ## Built from
 
-Copy only the five files in `themes/` to the Herdr home's `themes/`
+Copy the requested files in `themes/` to the Herdr home's `themes/`
 directory, using exclusive creation: do not overwrite existing names.
 There are no `mods/` or `layouts/` folders to install.
 Use the source revisions and license notices in README.md and `licenses/`
@@ -49,6 +50,6 @@ is unnecessary.
 
 ## Done when
 
-`python3 scripts/check.py` accepts all five files, Herdr's `themes()` API
-discovers all five names with only `nebula-light` classified as light, and
-installation leaves the selected theme and existing layout files unchanged.
+`npm test` and `npm run check` pass. Herdr's `themes()` API discovers every
+installed name with its expected appearance, and installation leaves the
+selected theme and existing layout files unchanged.

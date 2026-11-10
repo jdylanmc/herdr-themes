@@ -1,6 +1,15 @@
 # Herdr Themes
 
-Five palette-only themes for the native [Herdr app](https://herdr.dev):
+Palette-only themes for the native [Herdr app](https://herdr.dev).
+Includes the five initial palettes below and **143 additional palettes**
+covering every variant of the [top 20 VS Code Themes listings by installs](https://vscodethemes.com/?sort=installs),
+captured November 10, 2026.
+
+The expansion contains **123 licensed ports** and **20 independently designed
+originals** in place of Material Theme and Monokai Pro, whose current packages
+do not permit redistribution. The originals are not copies, small color
+perturbations, official variants, or intended visual matches.
+See the [ranked collection](catalog/README.md) for all 20 listings and files.
 
 | Theme | Appearance | Style |
 | --- | --- | --- |
@@ -62,10 +71,29 @@ These ports do not change fonts or add syntax highlighting to terminal programs.
 | Nebula | [Devaang Mandalia's Obsidian theme](https://github.com/devmandalia/Nebula/blob/8f28486f4b1bd60cdd7e5b82002df8cc2c0b5480/theme.css) | MIT |
 
 Upstream license texts are preserved in `licenses/`.
+The VS Code expansion records per-file licenses in `catalog/vscode-top-20.json`.
+Its MIT notices are under `licenses/vscode/`; the Bearded Theme ports remain
+GPL-3.0-only, with their original JSON inputs and complete corresponding
+upstream source archive under `sources/`. Do not relicense those files as MIT.
+Each GPL palette has an adjacent `.json.license` modification notice.
 Tokyo Night's JSON file is a modified format conversion of its upstream
 terminal palette with additional Herdr panel and status color mappings.
-All other JSON files are adaptations with the mappings described above.
+The other initial palettes are adaptations with the mappings described above.
+The expansion's `original-*` files are independently authored designs.
 
 ## Validate
 
-Run `python3 scripts/check.py` to validate all palettes.
+Node.js 22+ and Python 3 are sufficient; no dependencies need to be installed.
+Run `npm test` and `npm run check`.
+Run `npm run generate` to rebuild the expansion offline from frozen source
+files and independent HSL design profiles.
+
+The converter follows relative theme includes and child overrides. It maps
+explicit terminal colors first, then editor/panel colors to Herdr tokens.
+Missing ANSI entries use relevant syntax colors where available and a standard
+dark/light terminal palette otherwise. Every inferred token is recorded in
+the catalog; these mappings are not claims of upstream-defined terminal colors.
+Translucent colors are composited onto the destination background.
+Italic-only variants remain separately named even where the resulting colors
+are identical. Editor effects, fonts, syntax rules and extension code are not
+installed or executed.

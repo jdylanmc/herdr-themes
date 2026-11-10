@@ -1,0 +1,26 @@
+{
+  "Equinusocio.vsc-material-theme": [
+    { "name": "kiln", "hue": 18, "accentHue": 172, "rotation": 8 },
+    { "name": "kiln-contrast", "hue": 18, "accentHue": 172, "rotation": 8, "contrast": true },
+    { "name": "blueprint", "hue": 210, "accentHue": 42, "rotation": -12 },
+    { "name": "blueprint-contrast", "hue": 210, "accentHue": 42, "rotation": -12, "contrast": true },
+    { "name": "damson", "hue": 322, "accentHue": 112, "rotation": 17 },
+    { "name": "damson-contrast", "hue": 322, "accentHue": 112, "rotation": 17, "contrast": true },
+    { "name": "patina", "hue": 165, "accentHue": 26, "rotation": -6 },
+    { "name": "patina-contrast", "hue": 165, "accentHue": 26, "rotation": -6, "contrast": true },
+    { "name": "lichen", "hue": 78, "accentHue": 267, "rotation": 11 },
+    { "name": "lichen-contrast", "hue": 78, "accentHue": 267, "rotation": 11, "contrast": true },
+    { "name": "porcelain", "hue": 196, "accentHue": 334, "rotation": -9, "light": true },
+    { "name": "porcelain-contrast", "hue": 196, "accentHue": 334, "rotation": -9, "light": true, "contrast": true }
+  ],
+  "monokai.theme-monokai-pro-vscode": [
+    { "name": "relay", "hue": 187, "accentHue": 17, "rotation": 5 },
+    { "name": "copperline", "hue": 24, "accentHue": 194, "rotation": -8 },
+    { "name": "mulberry", "hue": 335, "accentHue": 157, "rotation": 13 },
+    { "name": "indigo-orchard", "hue": 252, "accentHue": 84, "rotation": -13 },
+    { "name": "ironwood", "hue": 111, "accentHue": 307, "rotation": 9 },
+    { "name": "saltflat", "hue": 40, "accentHue": 224, "rotation": 7, "light": true },
+    { "name": "blue-chalk", "hue": 215, "accentHue": 13, "rotation": -11, "light": true },
+    { "name": "aurora-rail", "hue": 282, "accentHue": 167, "rotation": 19 }
+  ]
+}

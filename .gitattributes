@@ -1,0 +1,3 @@
+# Preserve upstream source and license text byte-for-byte.
+sources/vscode/** -whitespace
+licenses/vscode/** -whitespace

@@ -1,0 +1,1732 @@
+{
+  "rankingUrl": "https://vscodethemes.com/?sort=installs",
+  "capturedAt": "2026-11-10T16:00:19.009Z",
+  "entries": [
+    {
+      "rank": 1,
+      "id": "ms-vscode.cpptools-themes",
+      "name": "C/C++ Themes",
+      "version": "2.0.0",
+      "installs": 61470531,
+      "packageUrl": "https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools-themes/2.0.0/1666648137053/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "61603952c03e720bc8ebab81f5df6c9b08219aca9fdef64f14da5208af832717",
+      "repository": "https://github.com/Microsoft/vscode-cpptools.git",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Dark (Visual Studio - C/C++)",
+          "uiTheme": "vs-dark",
+          "path": "themes/cpptools_dark_vs_new.json",
+          "file": "vscode-ms-vscode-dark-visual-studio-c-c.json"
+        },
+        {
+          "label": "2017 Dark (Visual Studio - C/C++)",
+          "uiTheme": "vs-dark",
+          "path": "themes/cpptools_dark_vs.json",
+          "file": "vscode-ms-vscode-2017-dark-visual-studio-c-c.json"
+        },
+        {
+          "label": "Light (Visual Studio - C/C++)",
+          "uiTheme": "vs",
+          "path": "themes/cpptools_light_vs_new.json",
+          "file": "vscode-ms-vscode-light-visual-studio-c-c.json"
+        },
+        {
+          "label": "2017 Light (Visual Studio - C/C++)",
+          "uiTheme": "vs",
+          "path": "themes/cpptools_light_vs.json",
+          "file": "vscode-ms-vscode-2017-light-visual-studio-c-c.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/ms-vscode.cpptools-themes",
+      "licenses": [
+        "licenses/vscode/ms-vscode.cpptools-themes/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/ms-vscode.cpptools-themes/themes/cpptools_dark_vs.json",
+          "sha256": "aa033b86dea83cefba84b2ae0e02afcdee4897bd71e07c2d10c30c597b522325"
+        },
+        {
+          "file": "sources/vscode/ms-vscode.cpptools-themes/themes/cpptools_dark_vs_new.json",
+          "sha256": "2885ddb4f9e0687ee56532db14c1efefada0cc942b27115d833a5ed551cd49dd"
+        },
+        {
+          "file": "sources/vscode/ms-vscode.cpptools-themes/themes/cpptools_light_vs.json",
+          "sha256": "a6758f6c19b7242dd4db5f0d3cdd1d2d2cba4451b6420955650ab1364b97bb84"
+        },
+        {
+          "file": "sources/vscode/ms-vscode.cpptools-themes/themes/cpptools_light_vs_new.json",
+          "sha256": "7bef87b474c8d5e7379451b7c6177fa3732da4a89a7839aacf5e555aa4e1bc56"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "ms-vscode.PowerShell",
+      "name": "PowerShell",
+      "version": "2026.1.2",
+      "installs": 22716697,
+      "packageUrl": "https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/powershell/2026.1.2/1782428179629/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "63109b41e76fc9df07b8a3ed75b4e0d35251e3c0c8100ef7d93efe16d753bd4b",
+      "repository": "https://github.com/PowerShell/vscode-powershell.git",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "PowerShell ISE",
+          "uiTheme": "vs",
+          "path": "themes/theme-psise/theme.json",
+          "file": "vscode-ms-vscode-powershell-ise.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/ms-vscode.PowerShell",
+      "licenses": [
+        "licenses/vscode/ms-vscode.PowerShell/NOTICE.txt",
+        "licenses/vscode/ms-vscode.PowerShell/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/ms-vscode.PowerShell/themes/theme-psise/theme.json",
+          "sha256": "fb02936c49df25ff3068c2c3371039f2cd3fc3b5b1e485120cb05279f73c6296"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "GitHub.github-vscode-theme",
+      "name": "GitHub Theme",
+      "version": "6.3.5",
+      "installs": 20594250,
+      "packageUrl": "https://GitHub.gallerycdn.vsassets.io/extensions/github/github-vscode-theme/6.3.5/1727933603062/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "74e69da1804f718ae9ce6a8ea49c06fbf9cfc137c9b65b0e14353715cb5d474a",
+      "repository": "https://github.com/primer/github-vscode-theme",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "GitHub Light Default",
+          "uiTheme": "vs",
+          "path": "themes/light-default.json",
+          "file": "vscode-github-github-light-default.json"
+        },
+        {
+          "label": "GitHub Light High Contrast",
+          "uiTheme": "hc-light",
+          "path": "themes/light-high-contrast.json",
+          "file": "vscode-github-github-light-high-contrast.json"
+        },
+        {
+          "label": "GitHub Light Colorblind (Beta)",
+          "uiTheme": "vs",
+          "path": "themes/light-colorblind.json",
+          "file": "vscode-github-github-light-colorblind-beta.json"
+        },
+        {
+          "label": "GitHub Dark Default",
+          "uiTheme": "vs-dark",
+          "path": "themes/dark-default.json",
+          "file": "vscode-github-github-dark-default.json"
+        },
+        {
+          "label": "GitHub Dark High Contrast",
+          "uiTheme": "hc-black",
+          "path": "themes/dark-high-contrast.json",
+          "file": "vscode-github-github-dark-high-contrast.json"
+        },
+        {
+          "label": "GitHub Dark Colorblind (Beta)",
+          "uiTheme": "vs-dark",
+          "path": "themes/dark-colorblind.json",
+          "file": "vscode-github-github-dark-colorblind-beta.json"
+        },
+        {
+          "label": "GitHub Dark Dimmed",
+          "uiTheme": "vs-dark",
+          "path": "themes/dark-dimmed.json",
+          "file": "vscode-github-github-dark-dimmed.json"
+        },
+        {
+          "label": "GitHub Light",
+          "uiTheme": "vs",
+          "path": "themes/light.json",
+          "file": "vscode-github-github-light.json"
+        },
+        {
+          "label": "GitHub Dark",
+          "uiTheme": "vs-dark",
+          "path": "themes/dark.json",
+          "file": "vscode-github-github-dark.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/GitHub.github-vscode-theme",
+      "licenses": [
+        "licenses/vscode/GitHub.github-vscode-theme/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/dark-colorblind.json",
+          "sha256": "82a160f2875af3842419cd730a466f9e7332eedc331811a46a98a4c0714d9661"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/dark-default.json",
+          "sha256": "a81623253b9441beef340f9417fa02e668b54ad7238735b5db72de6fd1eae9ba"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/dark-dimmed.json",
+          "sha256": "af4c53a7a780228bda624d2a0771e216730eb6ea52598a6598614428498b159c"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/dark-high-contrast.json",
+          "sha256": "87a49281f145b8caa312bf06be804742d3310a785ff4877f5d7cfd69a42d15b2"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/dark.json",
+          "sha256": "ae3c9cc457fed8fc6a09b1f900981be01076cff606988d7b8a2c0c1f04183a3f"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/light-colorblind.json",
+          "sha256": "d5fd65e781f09b8f36fcd545d1eab03709eea02a9e2063d0ce2fecd185b0db6d"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/light-default.json",
+          "sha256": "cc0cf47f4089eab798a72c600c08eff05246abb0c233d37dabd02afb255fccfb"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/light-high-contrast.json",
+          "sha256": "2dda1c184f7820f21179e79a937e86dbc0380d6f274b014ff7e4a0f2bedc3f29"
+        },
+        {
+          "file": "sources/vscode/GitHub.github-vscode-theme/themes/light.json",
+          "sha256": "3dc8cabcb5ccb63d660b09f6a55c900a206dfeef07b26cb39a8959990c042c10"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "zhuangtongfa.Material-theme",
+      "name": "One Dark Pro",
+      "version": "3.20.6",
+      "installs": 12914272,
+      "packageUrl": "https://zhuangtongfa.gallerycdn.vsassets.io/extensions/zhuangtongfa/material-theme/3.20.6/1793281660115/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "2ed87c36baeab7f18f831fc643fcbbfa55ada3b725b6b7928828dddd326090c2",
+      "repository": "https://github.com/Binaryify/OneDark-Pro",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "One Dark Pro",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark-Pro.json",
+          "file": "vscode-zhuangtongfa-one-dark-pro.json"
+        },
+        {
+          "label": "One Dark Pro Flat",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark-Pro-flat.json",
+          "file": "vscode-zhuangtongfa-one-dark-pro-flat.json"
+        },
+        {
+          "label": "One Dark Pro Darker",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark-Pro-darker.json",
+          "file": "vscode-zhuangtongfa-one-dark-pro-darker.json"
+        },
+        {
+          "label": "One Dark Pro Mix",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark-Pro-mix.json",
+          "file": "vscode-zhuangtongfa-one-dark-pro-mix.json"
+        },
+        {
+          "label": "One Dark Pro Night Flat",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark-Pro-night-flat.json",
+          "file": "vscode-zhuangtongfa-one-dark-pro-night-flat.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/zhuangtongfa.Material-theme",
+      "licenses": [
+        "licenses/vscode/zhuangtongfa.Material-theme/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/zhuangtongfa.Material-theme/themes/OneDark-Pro-darker.json",
+          "sha256": "b571c255ab0d0cda2b0581815dd074c5ba938f3a7e8e46ae89bd6ed6f771fbcf"
+        },
+        {
+          "file": "sources/vscode/zhuangtongfa.Material-theme/themes/OneDark-Pro-flat.json",
+          "sha256": "ce2b405f0c9ecd744a6c8492c66738db186b2b5d48d435df02cbf20647b6ef7c"
+        },
+        {
+          "file": "sources/vscode/zhuangtongfa.Material-theme/themes/OneDark-Pro-mix.json",
+          "sha256": "7d9811d94edb6e5957592f34af9445a1f94a0406d89cf9d9d393ac94b2c64b7e"
+        },
+        {
+          "file": "sources/vscode/zhuangtongfa.Material-theme/themes/OneDark-Pro-night-flat.json",
+          "sha256": "fc6ca7ea0e1069ba81f149eab08509c241787e7357c657734cf34525c3a88dad"
+        },
+        {
+          "file": "sources/vscode/zhuangtongfa.Material-theme/themes/OneDark-Pro.json",
+          "sha256": "bd098a63d2fdcb932ea67caaf66eb25a51cda1c2179ff37048fe1db7fe13461f"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "dracula-theme.theme-dracula",
+      "name": "Dracula Theme Official",
+      "version": "2.25.1",
+      "installs": 11135635,
+      "packageUrl": "https://dracula-theme.gallerycdn.vsassets.io/extensions/dracula-theme/theme-dracula/2.25.1/1721220788613/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "8a319b762a9b0d0999615a990b1d97e16eca44d57750375d5afcfef71fef7dc0",
+      "repository": "https://github.com/dracula/visual-studio-code.git",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Dracula Theme",
+          "uiTheme": "vs-dark",
+          "path": "theme/dracula.json",
+          "file": "vscode-dracula-theme-dracula-theme.json"
+        },
+        {
+          "label": "Dracula Theme Soft",
+          "uiTheme": "vs-dark",
+          "path": "theme/dracula-soft.json",
+          "file": "vscode-dracula-theme-dracula-theme-soft.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/dracula-theme.theme-dracula",
+      "licenses": [
+        "licenses/vscode/dracula-theme.theme-dracula/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/dracula-theme.theme-dracula/theme/dracula-soft.json",
+          "sha256": "4003c1709b14dc17c7e49e188a7738052bcfb47313df45f571729aebcd9ead96"
+        },
+        {
+          "file": "sources/vscode/dracula-theme.theme-dracula/theme/dracula.json",
+          "sha256": "ae473d11bdef6ad5d3fc3c6cf3a104e98c9fd8a195f13c5cc1699df33a2537eb"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "akamud.vscode-theme-onedark",
+      "name": "Atom One Dark Theme",
+      "version": "2.3.0",
+      "installs": 7414021,
+      "packageUrl": "https://akamud.gallerycdn.vsassets.io/extensions/akamud/vscode-theme-onedark/2.3.0/1665238240663/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "f061afe0be29a136237640f067180d61a8ee126201e571759a124cc4ed87a3ce",
+      "repository": "https://github.com/akamud/vscode-theme-onedark",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Atom One Dark",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneDark.json",
+          "file": "vscode-akamud-atom-one-dark.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/akamud.vscode-theme-onedark",
+      "licenses": [
+        "licenses/vscode/akamud.vscode-theme-onedark/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/akamud.vscode-theme-onedark/themes/OneDark.json",
+          "sha256": "9cba08f30e9f249ed5d00a33a582533cc611d9360e61973dcaddcad3f7ac8d7c"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "Equinusocio.vsc-material-theme",
+      "name": "Material Theme — Deprecated",
+      "version": "34.7.16",
+      "installs": 4299859,
+      "packageUrl": "https://Equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/34.7.16/1759744648410/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "8eb3cf1b10665993303f5f98c783ecabc56d153842ad23ce91c1f8e889eb07db",
+      "repository": "https://github.com/vira-themes/vira-theme-support",
+      "license": "restricted: original replacements",
+      "variants": [
+        {
+          "label": "Material Theme",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Default.json",
+          "file": "vscode-equinusocio-material-theme.json"
+        },
+        {
+          "label": "Material Theme High Contrast",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Default-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-high-contrast.json"
+        },
+        {
+          "label": "Material Theme Darker",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Darker.json",
+          "file": "vscode-equinusocio-material-theme-darker.json"
+        },
+        {
+          "label": "Material Theme Darker High Contrast",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Darker-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-darker-high-contrast.json"
+        },
+        {
+          "label": "Material Theme Palenight",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Palenight.json",
+          "file": "vscode-equinusocio-material-theme-palenight.json"
+        },
+        {
+          "label": "Material Theme Palenight High Contrast",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Palenight-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-palenight-high-contrast.json"
+        },
+        {
+          "label": "Material Theme Ocean",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Ocean.json",
+          "file": "vscode-equinusocio-material-theme-ocean.json"
+        },
+        {
+          "label": "Material Theme Ocean High Contrast",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Ocean-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-ocean-high-contrast.json"
+        },
+        {
+          "label": "Material Theme Deepforest",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Deepforest.json",
+          "file": "vscode-equinusocio-material-theme-deepforest.json"
+        },
+        {
+          "label": "Material Theme DeepForest High Contrast",
+          "uiTheme": "vs-dark",
+          "path": "build/themes/Material-Theme-Deepforest-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-deepforest-high-contrast.json"
+        },
+        {
+          "label": "Material Theme Lighter",
+          "uiTheme": "vs",
+          "path": "build/themes/Material-Theme-Lighter.json",
+          "file": "vscode-equinusocio-material-theme-lighter.json"
+        },
+        {
+          "label": "Material Theme Lighter High Contrast",
+          "uiTheme": "vs",
+          "path": "build/themes/Material-Theme-Lighter-High-Contrast.json",
+          "file": "vscode-equinusocio-material-theme-lighter-high-contrast.json"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "teabyii.ayu",
+      "name": "Ayu",
+      "version": "1.6.0",
+      "installs": 4244347,
+      "packageUrl": "https://teabyii.gallerycdn.vsassets.io/extensions/teabyii/ayu/1.6.0/1793698782766/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "695520fa9e60eb3e49574f5e886e2b39d01f72e419f674b1bceb8bc681d8aba7",
+      "repository": "https://github.com/ayu-theme/vscode-ayu",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Ayu Light",
+          "uiTheme": "vs",
+          "path": "ayu-light.json",
+          "file": "vscode-teabyii-ayu-light.json"
+        },
+        {
+          "label": "Ayu Mirage",
+          "uiTheme": "vs-dark",
+          "path": "ayu-mirage.json",
+          "file": "vscode-teabyii-ayu-mirage.json"
+        },
+        {
+          "label": "Ayu Dark",
+          "uiTheme": "vs-dark",
+          "path": "ayu-dark.json",
+          "file": "vscode-teabyii-ayu-dark.json"
+        },
+        {
+          "label": "Ayu Light Unbordered",
+          "uiTheme": "vs",
+          "path": "ayu-light-unbordered.json",
+          "file": "vscode-teabyii-ayu-light-unbordered.json"
+        },
+        {
+          "label": "Ayu Mirage Unbordered",
+          "uiTheme": "vs-dark",
+          "path": "ayu-mirage-unbordered.json",
+          "file": "vscode-teabyii-ayu-mirage-unbordered.json"
+        },
+        {
+          "label": "Ayu Dark Unbordered",
+          "uiTheme": "vs-dark",
+          "path": "ayu-dark-unbordered.json",
+          "file": "vscode-teabyii-ayu-dark-unbordered.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/teabyii.ayu",
+      "licenses": [
+        "licenses/vscode/teabyii.ayu/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-dark-unbordered.json",
+          "sha256": "8dd7922ec3b045a916042ca758eac71e190ba592d8de59a6f87732cc48a2196b"
+        },
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-dark.json",
+          "sha256": "8d2d2ca525d8a5bd516e86fcbb41d6956f9fc43395921e8f06a7eceba780d8de"
+        },
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-light-unbordered.json",
+          "sha256": "65e46cd883561d242e1ad9c342e5142201fccd8c895cd0ad661580b09df6e819"
+        },
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-light.json",
+          "sha256": "10b4655242f94804b5f32c8d2b051a15cdd596e2deb1fb03f158f5bbd20d5002"
+        },
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-mirage-unbordered.json",
+          "sha256": "416741deac6f06524bc690ba0e190d5ba3dd5fb0aa0cb09a96163f084e19cabd"
+        },
+        {
+          "file": "sources/vscode/teabyii.ayu/ayu-mirage.json",
+          "sha256": "1f56fb4cbeca587f7f8f1e5779ab41558f6ed52ee0d6529caaccbda13833a1f8"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "monokai.theme-monokai-pro-vscode",
+      "name": "Monokai Pro",
+      "version": "2.0.16",
+      "installs": 4195662,
+      "packageUrl": "https://monokai.gallerycdn.vsassets.io/extensions/monokai/theme-monokai-pro-vscode/2.0.16/1791027101229/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "5fd725b94deca0fffde544d6a0c902c66e3b83deee3b34fe452b739f2322c746",
+      "repository": null,
+      "license": "restricted: original replacements",
+      "variants": [
+        {
+          "label": "Monokai Pro",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Pro.json",
+          "file": "vscode-monokai-monokai-pro.json"
+        },
+        {
+          "label": "Monokai Pro (Filter Octagon)",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Pro (Filter Octagon).json",
+          "file": "vscode-monokai-monokai-pro-filter-octagon.json"
+        },
+        {
+          "label": "Monokai Pro (Filter Ristretto)",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Pro (Filter Ristretto).json",
+          "file": "vscode-monokai-monokai-pro-filter-ristretto.json"
+        },
+        {
+          "label": "Monokai Pro (Filter Spectrum)",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Pro (Filter Spectrum).json",
+          "file": "vscode-monokai-monokai-pro-filter-spectrum.json"
+        },
+        {
+          "label": "Monokai Pro (Filter Machine)",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Pro (Filter Machine).json",
+          "file": "vscode-monokai-monokai-pro-filter-machine.json"
+        },
+        {
+          "label": "Monokai Pro Light",
+          "uiTheme": "vs",
+          "path": "themes/Monokai Pro Light.json",
+          "file": "vscode-monokai-monokai-pro-light.json"
+        },
+        {
+          "label": "Monokai Pro Light (Filter Sun)",
+          "uiTheme": "vs",
+          "path": "themes/Monokai Pro Light (Filter Sun).json",
+          "file": "vscode-monokai-monokai-pro-light-filter-sun.json"
+        },
+        {
+          "label": "Monokai Classic",
+          "uiTheme": "vs-dark",
+          "path": "themes/Monokai Classic.json",
+          "file": "vscode-monokai-monokai-classic.json"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "johnpapa.winteriscoming",
+      "name": "Winter is Coming Theme",
+      "version": "1.5.0",
+      "installs": 3771456,
+      "packageUrl": "https://johnpapa.gallerycdn.vsassets.io/extensions/johnpapa/winteriscoming/1.5.0/1784568211726/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "43b16ab7309ab6ac290ea87d87788c2663cc79e6da064217f250dc1774a0a9af",
+      "repository": "https://github.com/johnpapa/vscode-winteriscoming.git",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Winter is Coming (Dark Blue)",
+          "uiTheme": "vs-dark",
+          "path": "themes/WinterIsComing-dark-blue-color-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-dark-blue.json"
+        },
+        {
+          "label": "Winter is Coming (Dark Blue - No Italics)",
+          "uiTheme": "vs-dark",
+          "path": "themes/WinterIsComing-dark-blue-color-no-italics-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-dark-blue-no-italics.json"
+        },
+        {
+          "label": "Winter is Coming (Light)",
+          "uiTheme": "vs",
+          "path": "themes/WinterIsComing-light-color-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-light.json"
+        },
+        {
+          "label": "Winter is Coming (Light - No Italics)",
+          "uiTheme": "vs",
+          "path": "themes/WinterIsComing-light-color-no-italics-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-light-no-italics.json"
+        },
+        {
+          "label": "Winter is Coming (Dark Black)",
+          "uiTheme": "vs-dark",
+          "path": "themes/WinterIsComing-dark-color-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-dark-black.json"
+        },
+        {
+          "label": "Winter is Coming (Dark Black - No Italics)",
+          "uiTheme": "vs-dark",
+          "path": "themes/WinterIsComing-dark-color-no-italics-theme.json",
+          "file": "vscode-johnpapa-winter-is-coming-dark-black-no-italics.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/johnpapa.winteriscoming",
+      "licenses": [
+        "licenses/vscode/johnpapa.winteriscoming/LICENSE.md"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-blue-color-no-italics-theme.json",
+          "sha256": "f4aa689db3c4a3d426d670b0f4e0ffa70c47af764baf93f37e1ed3f91db23c58"
+        },
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-blue-color-theme.json",
+          "sha256": "898c0996769eacc7cfd9a712b5756736ce8ad2e744791fc65744bd6fdb6f4130"
+        },
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-color-no-italics-theme.json",
+          "sha256": "9e032d04920cd655bef7fe8e77157d5443b8a08a7f67ddbe04ad884ddc68a423"
+        },
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-color-theme.json",
+          "sha256": "def914d7c85818debf1f7c431f2a3dea75c992dde39ea9e4187de2dfaacd4ff7"
+        },
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-light-color-no-italics-theme.json",
+          "sha256": "9e8d24ed6c9026483d46edde2bb338c1790eff8ae5ce80168372750075b00c92"
+        },
+        {
+          "file": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-light-color-theme.json",
+          "sha256": "07cf9830fa9af9c9a0bce8f682d2ef13f8c624d3aa726d653d8baf412dd73839"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "sdras.night-owl",
+      "name": "Night Owl",
+      "version": "2.1.1",
+      "installs": 3611204,
+      "packageUrl": "https://sdras.gallerycdn.vsassets.io/extensions/sdras/night-owl/2.1.1/1735680079617/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "993be7530ff4d7ca7fd652538def6b6752495eae0d89a23477852746d86766d8",
+      "repository": "https://github.com/sdras/night-owl-vscode-theme",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Night Owl",
+          "uiTheme": "vs-dark",
+          "path": "themes/Night Owl-color-theme.json",
+          "file": "vscode-sdras-night-owl.json"
+        },
+        {
+          "label": "Night Owl (No Italics)",
+          "uiTheme": "vs-dark",
+          "path": "themes/Night Owl-color-theme-noitalic.json",
+          "file": "vscode-sdras-night-owl-no-italics.json"
+        },
+        {
+          "label": "Night Owl Light",
+          "uiTheme": "vs",
+          "path": "themes/Night Owl-Light-color-theme.json",
+          "file": "vscode-sdras-night-owl-light.json"
+        },
+        {
+          "label": "Night Owl Light (No Italics)",
+          "uiTheme": "vs",
+          "path": "themes/Night Owl-Light-color-theme-noitalic.json",
+          "file": "vscode-sdras-night-owl-light-no-italics.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/sdras.night-owl",
+      "licenses": [
+        "licenses/vscode/sdras.night-owl/LICENSE.md"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme-noitalic.json",
+          "sha256": "455e60c5814c39c92c31cbd80b3fc08ce95c25261443853f0ec30d398e69ff58"
+        },
+        {
+          "file": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme.json",
+          "sha256": "366bafde28045d2e6f0287ac2ff9b35e5d056ae61865af762cc5bd9565476360"
+        },
+        {
+          "file": "sources/vscode/sdras.night-owl/themes/Night Owl-color-theme-noitalic.json",
+          "sha256": "854b662b7744324d668d03be240ff32c6b6da2c4a6378f78ab4bf306adc14e40"
+        },
+        {
+          "file": "sources/vscode/sdras.night-owl/themes/Night Owl-color-theme.json",
+          "sha256": "5f7a6aebcb28e803f30b54dc4d401a8c5f9ca42d83a31d1fadcb2494fe1dc78b"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "enkia.tokyo-night",
+      "name": "Tokyo Night",
+      "version": "1.1.2",
+      "installs": 3019960,
+      "packageUrl": "https://enkia.gallerycdn.vsassets.io/extensions/enkia/tokyo-night/1.1.2/1738784080756/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "a16d1b90b2a29a9723cf14dbff28d285a823c954d4144835f7ca0f6d8e49da13",
+      "repository": "https://github.com/enkia/tokyo-night-vscode-theme",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Tokyo Night",
+          "uiTheme": "vs-dark",
+          "path": "themes/tokyo-night-color-theme.json",
+          "file": "vscode-enkia-tokyo-night.json"
+        },
+        {
+          "label": "Tokyo Night Storm",
+          "uiTheme": "vs-dark",
+          "path": "themes/tokyo-night-storm-color-theme.json",
+          "file": "vscode-enkia-tokyo-night-storm.json"
+        },
+        {
+          "label": "Tokyo Night Light",
+          "uiTheme": "vs",
+          "path": "themes/tokyo-night-light-color-theme.json",
+          "file": "vscode-enkia-tokyo-night-light.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/enkia.tokyo-night",
+      "licenses": [
+        "licenses/vscode/enkia.tokyo-night/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-color-theme.json",
+          "sha256": "e08d77c898ead9ed129dc18ff4f841e2353477e69ccd6fa7d0610561c31da4d8"
+        },
+        {
+          "file": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-light-color-theme.json",
+          "sha256": "80273128d232d645cbdf8b5bb8c7c7dfddb9f8825588117cdf84c3a98724b050"
+        },
+        {
+          "file": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-storm-color-theme.json",
+          "sha256": "d190b57f2fa662233adc5c8f6e7aeac15330452a0569a2086b979b92b7ce6cea"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "azemoh.one-monokai",
+      "name": "One Monokai Theme",
+      "version": "0.5.2",
+      "installs": 2966034,
+      "packageUrl": "https://azemoh.gallerycdn.vsassets.io/extensions/azemoh/one-monokai/0.5.2/1724116658202/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "964cbc845e61fd520811e712fb38e84cb8725b0582d1ac4d9c882790f2409ce0",
+      "repository": "https://github.com/azemoh/vscode-one-monokai.git",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "One Monokai",
+          "uiTheme": "vs-dark",
+          "path": "themes/OneMonokai-color-theme.json",
+          "file": "vscode-azemoh-one-monokai.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/azemoh.one-monokai",
+      "licenses": [
+        "licenses/vscode/azemoh.one-monokai/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/azemoh.one-monokai/themes/OneMonokai-color-theme.json",
+          "sha256": "843613991bcc5eace851d1e5ac01761761bf9ad4a0612ac2555dd087ada03af8"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "whizkydee.material-palenight-theme",
+      "name": "Palenight Theme",
+      "version": "2.0.5",
+      "installs": 2665466,
+      "packageUrl": "https://whizkydee.gallerycdn.vsassets.io/extensions/whizkydee/material-palenight-theme/2.0.5/1789601772008/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "1ae1cfc9c13db98cf6042c137dfa48fe2e0fa67630a2fd9beb1f1f02bcfb9680",
+      "repository": "https://github.com/whizkydee/vscode-palenight-theme",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Palenight Theme",
+          "uiTheme": "vs-dark",
+          "path": "themes/palenight.json",
+          "file": "vscode-whizkydee-palenight-theme.json"
+        },
+        {
+          "label": "Palenight Italic",
+          "uiTheme": "vs-dark",
+          "path": "themes/palenight-italic.json",
+          "file": "vscode-whizkydee-palenight-italic.json"
+        },
+        {
+          "label": "Palenight Operator",
+          "uiTheme": "vs-dark",
+          "path": "themes/palenight-operator.json",
+          "file": "vscode-whizkydee-palenight-operator.json"
+        },
+        {
+          "label": "Palenight (Mild Contrast)",
+          "uiTheme": "vs-dark",
+          "path": "themes/palenight-mild-contrast.json",
+          "file": "vscode-whizkydee-palenight-mild-contrast.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/whizkydee.material-palenight-theme",
+      "licenses": [
+        "licenses/vscode/whizkydee.material-palenight-theme/license.md"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-italic.json",
+          "sha256": "9bf55db7ec3217e4a9abaa9d522a1c0d18db553204b5196d6add30fcf86dd43d"
+        },
+        {
+          "file": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-mild-contrast.json",
+          "sha256": "47753fb7cd3ef0c27d6c08f1c7e3f1ba35fdd5af972830615150b5668898cdd4"
+        },
+        {
+          "file": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-operator.json",
+          "sha256": "bfcfe1031dd4ab196fa0415e580612f7a654469ad6c22e39ca745bbe81adf3a9"
+        },
+        {
+          "file": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight.json",
+          "sha256": "1a9b1c2718b360b004c93e4c39e0eeea143aedc00841988a01a7dcb846c5de0c"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "RobbOwen.synthwave-vscode",
+      "name": "SynthWave '84",
+      "version": "0.1.20",
+      "installs": 2571748,
+      "packageUrl": "https://RobbOwen.gallerycdn.vsassets.io/extensions/robbowen/synthwave-vscode/0.1.20/1752764310927/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "27c8a0b3e4909fdebb38ad0f2cd66d57d20e251ab077eabdbe667ea7d78a4a85",
+      "repository": "https://github.com/robb0wen/synthwave-vscode",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "SynthWave '84",
+          "uiTheme": "vs-dark",
+          "path": "themes/synthwave-color-theme.json",
+          "file": "vscode-robbowen-synthwave-84.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/RobbOwen.synthwave-vscode",
+      "licenses": [
+        "licenses/vscode/RobbOwen.synthwave-vscode/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/RobbOwen.synthwave-vscode/themes/synthwave-color-theme.json",
+          "sha256": "cc2361fa174b34f5c8b17ecc6b7a3d64040677c50936bff2f955000ae84e999b"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "ahmadawais.shades-of-purple",
+      "name": "Shades of Purple",
+      "version": "7.3.6",
+      "installs": 2360746,
+      "packageUrl": "https://ahmadawais.gallerycdn.vsassets.io/extensions/ahmadawais/shades-of-purple/7.3.6/1760507898068/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "db6672c067b0d5087860f8b9d495933502cabb3fe7cf1fe2a6b50af7a0d07d85",
+      "repository": "https://github.com/ahmadawais/shades-of-purple-vscode",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Shades of Purple",
+          "uiTheme": "vs-dark",
+          "path": "themes/shades-of-purple-color-theme.json",
+          "file": "vscode-ahmadawais-shades-of-purple.json"
+        },
+        {
+          "label": "Shades of Purple (Super Dark)",
+          "uiTheme": "vs-dark",
+          "path": "themes/shades-of-purple-color-theme-super-dark.json",
+          "file": "vscode-ahmadawais-shades-of-purple-super-dark.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/ahmadawais.shades-of-purple",
+      "licenses": [
+        "licenses/vscode/ahmadawais.shades-of-purple/LICENSE.md"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/ahmadawais.shades-of-purple/themes/shades-of-purple-color-theme-super-dark.json",
+          "sha256": "ac736ea82705aa2de9a48e79ccd088340d4a2ba14c2b7baa1de8d56ba6dfba51"
+        },
+        {
+          "file": "sources/vscode/ahmadawais.shades-of-purple/themes/shades-of-purple-color-theme.json",
+          "sha256": "5db19e01c34362177809c351f9c8db9985a80d7ec28d941b9dec617e5bbffb78"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "wesbos.theme-cobalt2",
+      "name": "Cobalt2 Theme Official",
+      "version": "2.5.0",
+      "installs": 1912511,
+      "packageUrl": "https://wesbos.gallerycdn.vsassets.io/extensions/wesbos/theme-cobalt2/2.5.0/1736275209687/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "9e222c0b5275a57f771b033a15f7ffb2993fa7caaf0550d1c51ec43bfb5f7077",
+      "repository": "https://github.com/wesbos/cobalt2-vscode",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Cobalt2",
+          "uiTheme": "vs-dark",
+          "path": "theme/cobalt2.json",
+          "file": "vscode-wesbos-cobalt2.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/wesbos.theme-cobalt2",
+      "licenses": [
+        "licenses/vscode/wesbos.theme-cobalt2/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/wesbos.theme-cobalt2/theme/cobalt2.json",
+          "sha256": "9f5862db4e9424f65f5b7a3a36b70c2e66374fd8fbfd67b42c18480f7231a71e"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "EliverLara.andromeda",
+      "name": "Andromeda",
+      "version": "1.10.0",
+      "installs": 1712685,
+      "packageUrl": "https://EliverLara.gallerycdn.vsassets.io/extensions/eliverlara/andromeda/1.10.0/1767990429367/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "5bce26f5bdc3cead8b8d4a5aff48734966d5a246b123820311a0b24960c5f549",
+      "repository": "https://github.com/EliverLara/Andromeda",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Andromeda",
+          "uiTheme": "vs-dark",
+          "path": "themes/Andromeda-color-theme.json",
+          "file": "vscode-eliverlara-andromeda.json"
+        },
+        {
+          "label": "Andromeda Bordered",
+          "uiTheme": "vs-dark",
+          "path": "themes/Andromeda-color-theme-bordered.json",
+          "file": "vscode-eliverlara-andromeda-bordered.json"
+        },
+        {
+          "label": "Andromeda Italic Bordered",
+          "uiTheme": "vs-dark",
+          "path": "themes/Andromeda-italic-color-theme-bordered.json",
+          "file": "vscode-eliverlara-andromeda-italic-bordered.json"
+        },
+        {
+          "label": "Andromeda Italic",
+          "uiTheme": "vs-dark",
+          "path": "themes/Andromeda-italic-color-theme.json",
+          "file": "vscode-eliverlara-andromeda-italic.json"
+        },
+        {
+          "label": "Andromeda Colorizer",
+          "uiTheme": "vs-dark",
+          "path": "themes/Andromeda-colorizer.json",
+          "file": "vscode-eliverlara-andromeda-colorizer.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/EliverLara.andromeda",
+      "licenses": [
+        "licenses/vscode/EliverLara.andromeda/LICENSE.md"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/EliverLara.andromeda/themes/Andromeda-color-theme-bordered.json",
+          "sha256": "cb2d745ea8fab022a1f673dd660130bd77ac49d7825b0b58166a82d3faa7edcc"
+        },
+        {
+          "file": "sources/vscode/EliverLara.andromeda/themes/Andromeda-color-theme.json",
+          "sha256": "e4909a8f59538af9f9036edf4eab698f71b3a0abaff2497f52aa95bd1e6206a6"
+        },
+        {
+          "file": "sources/vscode/EliverLara.andromeda/themes/Andromeda-colorizer.json",
+          "sha256": "85e420e5eca83e56cd1c217f22e3af84377841291e47baf6c950bcd8392fb094"
+        },
+        {
+          "file": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme-bordered.json",
+          "sha256": "342be01fad791d6dccd8b4184f7a6f8a0cbffc40b1a158de619295c8f2625454"
+        },
+        {
+          "file": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme.json",
+          "sha256": "68e37ba4d41769b268bf8864a434a7ad8fcc7e2c096ab9c9708096100afe7971"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "tal7aouy.theme",
+      "name": "Theme",
+      "version": "3.1.0",
+      "installs": 1636557,
+      "packageUrl": "https://tal7aouy.gallerycdn.vsassets.io/extensions/tal7aouy/theme/3.1.0/1695852970110/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "2c926a4b919fd6d5772f6faa4eab252ec760381ca368caa4086c40309aa006dc",
+      "repository": "https://github.com/tal7aouy/theme",
+      "license": "MIT",
+      "variants": [
+        {
+          "label": "Theme",
+          "uiTheme": "vs-dark",
+          "path": "themes/Theme.json",
+          "file": "vscode-tal7aouy-theme.json"
+        },
+        {
+          "label": "Theme Flat",
+          "uiTheme": "vs-dark",
+          "path": "themes/ThemeFlat.json",
+          "file": "vscode-tal7aouy-theme-flat.json"
+        },
+        {
+          "label": "Theme Mix",
+          "uiTheme": "vs-dark",
+          "path": "themes/ThemeMix.json",
+          "file": "vscode-tal7aouy-theme-mix.json"
+        },
+        {
+          "label": "Theme Darker",
+          "uiTheme": "vs-dark",
+          "path": "themes/ThemeDarker.json",
+          "file": "vscode-tal7aouy-theme-darker.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/tal7aouy.theme",
+      "licenses": [
+        "licenses/vscode/tal7aouy.theme/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/tal7aouy.theme/themes/Theme.json",
+          "sha256": "86a69300127958ed62fe2418b59de74b0076386cc7143b44521d8c37b5eb586e"
+        },
+        {
+          "file": "sources/vscode/tal7aouy.theme/themes/ThemeDarker.json",
+          "sha256": "5e6b6eec9950a7625cb6e71ed881b89c5f469b3e2818ecdad3348e85d6f2473f"
+        },
+        {
+          "file": "sources/vscode/tal7aouy.theme/themes/ThemeFlat.json",
+          "sha256": "e9613068a9301c27f64f384b45e877488787354c5d9044ee7a3584ed4229ffb4"
+        },
+        {
+          "file": "sources/vscode/tal7aouy.theme/themes/ThemeMix.json",
+          "sha256": "40a7117c222d4d0811d8145eb4f166514d497ec4664f56816c15828db24a5e10"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "BeardedBear.beardedtheme",
+      "name": "Bearded Theme",
+      "version": "10.1.0",
+      "installs": 1535102,
+      "packageUrl": "https://BeardedBear.gallerycdn.vsassets.io/extensions/beardedbear/beardedtheme/10.1.0/1745271947219/Microsoft.VisualStudio.Services.VSIXPackage",
+      "sha256": "ecc92f2c469dce007b69fd3595889b10ea879fd6efce5a603131228900651330",
+      "repository": "https://github.com/BeardedBear/bearded-theme",
+      "license": "GPL-3.0-only",
+      "correspondingSource": {
+        "revision": "65734e8f2e36fb825e3c6ecaf900777bc1322f73",
+        "url": "https://github.com/BeardedBear/bearded-theme/tree/65734e8f2e36fb825e3c6ecaf900777bc1322f73",
+        "archive": "sources/upstream/bearded-theme-v10.1.0.tar.gz",
+        "sha256": "8207cfaaa7fbd56f544bcbc882dd6fcb7e8b5399e3329bf87bb6cf2d0da8d08a"
+      },
+      "variants": [
+        {
+          "label": "Bearded Theme Monokai Metallian",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-monokai-metallian.json",
+          "file": "vscode-beardedbear-bearded-theme-monokai-metallian.json"
+        },
+        {
+          "label": "Bearded Theme Monokai Terra",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-monokai-terra.json",
+          "file": "vscode-beardedbear-bearded-theme-monokai-terra.json"
+        },
+        {
+          "label": "Bearded Theme Monokai Stone",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-monokai-stone.json",
+          "file": "vscode-beardedbear-bearded-theme-monokai-stone.json"
+        },
+        {
+          "label": "Bearded Theme Monokai Black",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-monokai-black.json",
+          "file": "vscode-beardedbear-bearded-theme-monokai-black.json"
+        },
+        {
+          "label": "Bearded Theme Monokai Reversed",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-monokai-reversed.json",
+          "file": "vscode-beardedbear-bearded-theme-monokai-reversed.json"
+        },
+        {
+          "label": "Bearded Theme Solarized",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-solarized-dark.json",
+          "file": "vscode-beardedbear-bearded-theme-solarized.json"
+        },
+        {
+          "label": "Bearded Theme Solarized Reversed",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-solarized-reversed.json",
+          "file": "vscode-beardedbear-bearded-theme-solarized-reversed.json"
+        },
+        {
+          "label": "Bearded Theme Solarized Light",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-solarized-light.json",
+          "file": "vscode-beardedbear-bearded-theme-solarized-light.json"
+        },
+        {
+          "label": "Bearded Theme Oceanic",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-oceanic.json",
+          "file": "vscode-beardedbear-bearded-theme-oceanic.json"
+        },
+        {
+          "label": "Bearded Theme Oceanic Reversed",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-oceanic-reversed.json",
+          "file": "vscode-beardedbear-bearded-theme-oceanic-reversed.json"
+        },
+        {
+          "label": "Bearded Theme Arc",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-arc.json",
+          "file": "vscode-beardedbear-bearded-theme-arc.json"
+        },
+        {
+          "label": "Bearded Theme Arc Eggplant",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-arc-eggplant.json",
+          "file": "vscode-beardedbear-bearded-theme-arc-eggplant.json"
+        },
+        {
+          "label": "Bearded Theme Arc EolStorm",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-arc-eolstorm.json",
+          "file": "vscode-beardedbear-bearded-theme-arc-eolstorm.json"
+        },
+        {
+          "label": "Bearded Theme Arc Blueberry",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-arc-blueberry.json",
+          "file": "vscode-beardedbear-bearded-theme-arc-blueberry.json"
+        },
+        {
+          "label": "Bearded Theme Arc Reversed",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-arc-reversed.json",
+          "file": "vscode-beardedbear-bearded-theme-arc-reversed.json"
+        },
+        {
+          "label": "Bearded Theme Black & Amethyst",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-amethyst.json",
+          "file": "vscode-beardedbear-bearded-theme-black-amethyst.json"
+        },
+        {
+          "label": "Bearded Theme Black & Amethyst Soft",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-amethyst-soft.json",
+          "file": "vscode-beardedbear-bearded-theme-black-amethyst-soft.json"
+        },
+        {
+          "label": "Bearded Theme Black & Diamond",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-diamond.json",
+          "file": "vscode-beardedbear-bearded-theme-black-diamond.json"
+        },
+        {
+          "label": "Bearded Theme Black & Diamond Soft",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-diamond-soft.json",
+          "file": "vscode-beardedbear-bearded-theme-black-diamond-soft.json"
+        },
+        {
+          "label": "Bearded Theme Black & Emerald",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-emerald.json",
+          "file": "vscode-beardedbear-bearded-theme-black-emerald.json"
+        },
+        {
+          "label": "Bearded Theme Black & Emerald Soft",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-emerald-soft.json",
+          "file": "vscode-beardedbear-bearded-theme-black-emerald-soft.json"
+        },
+        {
+          "label": "Bearded Theme Black & Gold",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-gold.json",
+          "file": "vscode-beardedbear-bearded-theme-black-gold.json"
+        },
+        {
+          "label": "Bearded Theme Black & Gold Soft",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-gold-soft.json",
+          "file": "vscode-beardedbear-bearded-theme-black-gold-soft.json"
+        },
+        {
+          "label": "Bearded Theme Black & Ruby",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-ruby.json",
+          "file": "vscode-beardedbear-bearded-theme-black-ruby.json"
+        },
+        {
+          "label": "Bearded Theme Black & Ruby Soft",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-black-&-ruby-soft.json",
+          "file": "vscode-beardedbear-bearded-theme-black-ruby-soft.json"
+        },
+        {
+          "label": "Bearded Theme Stained Purple",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-stained-purple.json",
+          "file": "vscode-beardedbear-bearded-theme-stained-purple.json"
+        },
+        {
+          "label": "Bearded Theme Stained Blue",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-stained-blue.json",
+          "file": "vscode-beardedbear-bearded-theme-stained-blue.json"
+        },
+        {
+          "label": "Bearded Theme Vivid Purple",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-vivid-purple.json",
+          "file": "vscode-beardedbear-bearded-theme-vivid-purple.json"
+        },
+        {
+          "label": "Bearded Theme Vivid Black",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-vivid-black.json",
+          "file": "vscode-beardedbear-bearded-theme-vivid-black.json"
+        },
+        {
+          "label": "Bearded Theme Vivid Light",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-vivid-light.json",
+          "file": "vscode-beardedbear-bearded-theme-vivid-light.json"
+        },
+        {
+          "label": "Bearded Theme feat. Will",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-feat-will.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-will.json"
+        },
+        {
+          "label": "Bearded Theme feat. Gold D Raynh",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-feat-gold-d-raynh.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-gold-d-raynh.json"
+        },
+        {
+          "label": "Bearded Theme feat. Melle Julie",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-feat-mellejulie.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-melle-julie.json"
+        },
+        {
+          "label": "Bearded Theme feat. Melle Julie Light",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-feat-mellejulie-light.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-melle-julie-light.json"
+        },
+        {
+          "label": "Bearded Theme feat. Mintshake D Raynh",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-feat-gold-d-raynh-light.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-mintshake-d-raynh.json"
+        },
+        {
+          "label": "Bearded Theme feat. WebDevCody",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-feat-webDevCody.json",
+          "file": "vscode-beardedbear-bearded-theme-feat-webdevcody.json"
+        },
+        {
+          "label": "Bearded Theme Earth",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-earth.json",
+          "file": "vscode-beardedbear-bearded-theme-earth.json"
+        },
+        {
+          "label": "Bearded Theme Coffee",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-coffee.json",
+          "file": "vscode-beardedbear-bearded-theme-coffee.json"
+        },
+        {
+          "label": "Bearded Theme Coffee Reversed",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-coffee-reversed.json",
+          "file": "vscode-beardedbear-bearded-theme-coffee-reversed.json"
+        },
+        {
+          "label": "Bearded Theme Coffee Cream",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-coffee-cream.json",
+          "file": "vscode-beardedbear-bearded-theme-coffee-cream.json"
+        },
+        {
+          "label": "Bearded Theme Void",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-void.json",
+          "file": "vscode-beardedbear-bearded-theme-void.json"
+        },
+        {
+          "label": "Bearded Theme Altica",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-altica.json",
+          "file": "vscode-beardedbear-bearded-theme-altica.json"
+        },
+        {
+          "label": "Bearded Theme Anthracite",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-classics-anthracite.json",
+          "file": "vscode-beardedbear-bearded-theme-anthracite.json"
+        },
+        {
+          "label": "Bearded Theme Light",
+          "uiTheme": "vs",
+          "path": "themes/bearded-theme-classics-light.json",
+          "file": "vscode-beardedbear-bearded-theme-light.json"
+        },
+        {
+          "label": "Bearded Theme Surprising Eggplant",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-surprising-eggplant.json",
+          "file": "vscode-beardedbear-bearded-theme-surprising-eggplant.json"
+        },
+        {
+          "label": "Bearded Theme Surprising Blueberry",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-surprising-blueberry.json",
+          "file": "vscode-beardedbear-bearded-theme-surprising-blueberry.json"
+        },
+        {
+          "label": "Bearded Theme Surprising Watermelon",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-surprising-watermelon.json",
+          "file": "vscode-beardedbear-bearded-theme-surprising-watermelon.json"
+        },
+        {
+          "label": "Bearded Theme HC Ebony",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-ebony.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-ebony.json"
+        },
+        {
+          "label": "Bearded Theme HC Midnight Void",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-midnightvoid.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-midnight-void.json"
+        },
+        {
+          "label": "Bearded Theme HC Wonderland Wood",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-wonderland-wood.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-wonderland-wood.json"
+        },
+        {
+          "label": "Bearded Theme HC Brewing Storm",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-brewing-storm.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-brewing-storm.json"
+        },
+        {
+          "label": "Bearded Theme HC Minuit",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-minuit.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-minuit.json"
+        },
+        {
+          "label": "Bearded Theme HC Chocolate Espresso",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-chocolate-espresso.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-chocolate-espresso.json"
+        },
+        {
+          "label": "Bearded Theme HC Flurry",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-hc-flurry.json",
+          "file": "vscode-beardedbear-bearded-theme-hc-flurry.json"
+        },
+        {
+          "label": "Bearded Theme Milkshake Raspberry",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-milkshake-raspberry.json",
+          "file": "vscode-beardedbear-bearded-theme-milkshake-raspberry.json"
+        },
+        {
+          "label": "Bearded Theme Milkshake Blueberry",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-milkshake-blueberry.json",
+          "file": "vscode-beardedbear-bearded-theme-milkshake-blueberry.json"
+        },
+        {
+          "label": "Bearded Theme Milkshake Mango",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-milkshake-mango.json",
+          "file": "vscode-beardedbear-bearded-theme-milkshake-mango.json"
+        },
+        {
+          "label": "Bearded Theme Milkshake Mint",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-milkshake-mint.json",
+          "file": "vscode-beardedbear-bearded-theme-milkshake-mint.json"
+        },
+        {
+          "label": "Bearded Theme Milkshake Vanilla Banana",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-milkshake-vanilla.json",
+          "file": "vscode-beardedbear-bearded-theme-milkshake-vanilla-banana.json"
+        },
+        {
+          "label": "Bearded Themanopia (Experimental)",
+          "uiTheme": "hc-black",
+          "path": "themes/bearded-theme-Themanopia.json",
+          "file": "vscode-beardedbear-bearded-themanopia-experimental.json",
+          "declaredPath": "themes/bearded-theme-themanopia.json"
+        },
+        {
+          "label": "Bearded Theme Aquarelle Cymbidium",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-aquarelle-cymbidium.json",
+          "file": "vscode-beardedbear-bearded-theme-aquarelle-cymbidium.json"
+        },
+        {
+          "label": "Bearded Theme Aquarelle Hydrangea",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-aquarelle-hydrangea.json",
+          "file": "vscode-beardedbear-bearded-theme-aquarelle-hydrangea.json"
+        },
+        {
+          "label": "Bearded Theme Aquarelle Lilac",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-aquarelle-lilac.json",
+          "file": "vscode-beardedbear-bearded-theme-aquarelle-lilac.json"
+        },
+        {
+          "label": "Bearded Theme OLED (Experimental)",
+          "uiTheme": "vs-dark",
+          "path": "themes/bearded-theme-oled.json",
+          "file": "vscode-beardedbear-bearded-theme-oled-experimental.json"
+        }
+      ],
+      "sourceDir": "sources/vscode/BeardedBear.beardedtheme",
+      "licenses": [
+        "licenses/vscode/BeardedBear.beardedtheme/LICENSE.txt"
+      ],
+      "sources": [
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-Themanopia.json",
+          "sha256": "ed50fd2c879711c5c8c17114ab494816f27dd93ad15884f7910c974a9f6103b1"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-altica.json",
+          "sha256": "737044ac551923e082642eb7a63117981eae0b4f21fb75d87f5be5838cc7a626"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-cymbidium.json",
+          "sha256": "25f6d2bfb1b96ffa94c4e139820082ea35a09751c3762c3ded4fb47464721d37"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-hydrangea.json",
+          "sha256": "e669232779dc30d137daabf0d945ee5ecda9d7274db58bd464e90068bf9dcc02"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-lilac.json",
+          "sha256": "9bf36f82eb15205708c86d4f5098d6802a28817b43958071f045ffc25d667713"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-blueberry.json",
+          "sha256": "5cfcceece19ea1264f0b2832b60dd7d64cb6858c0821cb1e4f6a136b228c5820"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-eggplant.json",
+          "sha256": "54e84262ddc7dc31eef5881853a61db310c1e83db08dabcac19d321e0dc4513d"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-eolstorm.json",
+          "sha256": "f8b0da6b8b6fec1141ae3bf60d58c9563c1b74659a3081e3f4caf7fb58db5431"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-reversed.json",
+          "sha256": "51a35743137ca550636f5a707dda5da7112d5ba3ded4b498d438e861a2f8cd3c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc.json",
+          "sha256": "2007a9cde6dafb6c1ce18a8766a12703e26e43de0b2bd0cff852f784de51dbee"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-amethyst-soft.json",
+          "sha256": "b3098d503977db9047d2332835723f79141ac73276a6b267b0a1c83daa7fa878"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-amethyst.json",
+          "sha256": "fc36692b3091fe35cd317032137d0da9d46a22bdfe76d34a4b089d0190d35ca7"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-diamond-soft.json",
+          "sha256": "79a235443c9f29ef483eb8d85280c03f29548d0762f28072f2952a5653bf1883"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-diamond.json",
+          "sha256": "b7f9d737577447b0c2d7b0c0856561a7d0637656fb3ae3a4105f3741d5c62a90"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-emerald-soft.json",
+          "sha256": "855f3eae7ab55227aa9bb8bb9a0887509e1a763b2bfc1890a85655b8b3fc4c69"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-emerald.json",
+          "sha256": "a043da6f743dedcc49eab658414cce6e4f40f8fd1c0deba54f45e555e1aa3e21"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-gold-soft.json",
+          "sha256": "66d553edd26c03fc447c29f134996a13b50425fdfad0f941a6ddeeb106fc38c9"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-gold.json",
+          "sha256": "73e8239a980e8abc3934118c9defaba7936311460f75affc5a07a693964a499c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-ruby-soft.json",
+          "sha256": "8c30db0c2e8b0d229c7b0c69bdb3ae74667c847d4ce5740f10900fb39a6fef6e"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-ruby.json",
+          "sha256": "fa731b512e70c9eefa708f90c8fbcaa40138558948b50d702def93ae2f4df09f"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-classics-anthracite.json",
+          "sha256": "d61898fd4c798901bfe59058e2d062d7151b0c9e67777175e4fb7b599d057c1c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-classics-light.json",
+          "sha256": "d9fdf7d0bce4e8e86a01e5da1953b17fa83c95ce8761e947292fcc72738630ad"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee-cream.json",
+          "sha256": "c8b8dd3f48c782490d53b0a976f5a28b9ae821e9efb12640d562b5ad0df0c8b2"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee-reversed.json",
+          "sha256": "ec486b9d645e776b5045db86d748b99a9dc101516d08386e1d4d34fcea6fcaea"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee.json",
+          "sha256": "449015f21d0aac3bbf3eca0e81ff71788a2e814246a7352b378e80bb44e6f57f"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-earth.json",
+          "sha256": "a6a66987e0a5228179b7fa69e23c8bafd8280a2170d2c4563e045d9fdb46cfcc"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-gold-d-raynh-light.json",
+          "sha256": "04da5184cf87b2ef7e5b8e78357d903f4459578e6629a50155b9e61aec66049c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-gold-d-raynh.json",
+          "sha256": "7ca6626ae8b4e3c7fbd59ab775f5a177db94fe048ec130ab64f0191c2d58917c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-mellejulie-light.json",
+          "sha256": "a8ea14b0a72873b77b18ffbf209ffbed12feb209b47fe43c59f97b3c05f117db"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-mellejulie.json",
+          "sha256": "306dc3cac342e76f6687968cae85b789ca04779e2d794b2b98b6c2f29888b171"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-webDevCody.json",
+          "sha256": "2bb0b3e68c0d57dd8bc2ac6728c3203b118b35560662436b823916853379adbf"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-will.json",
+          "sha256": "762e1473bf2c5445745fa6ef60a7ea163e523cc13aba1fa2ad9cdc4b5204c069"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-brewing-storm.json",
+          "sha256": "c4a27582e30e50cc56f4602fe8733a1f39908be7a99c129f80f56d3bf2c905c0"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-chocolate-espresso.json",
+          "sha256": "5f2bf56fba518f7ce8c885bde3b4ad4e05916cfc12dbec4df99a1f069ada5641"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-ebony.json",
+          "sha256": "23ee337ef74eb031caa2cf111c6b8a7f11f7c250708bcf8320c45b74f8fa0798"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-flurry.json",
+          "sha256": "e35bb6d2dadb78a6dd6fdd4020f8cb6899bf6707cf65fea01a98c2343f9468a9"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-midnightvoid.json",
+          "sha256": "31fb4c1cf9636306b5db6b0297600501a57fd834be432b61da7769996ca17860"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-minuit.json",
+          "sha256": "1574c2d2aab4d4961b6ed66c0cffb8454f69a9efef0efbfc2d271cb4f1aef4a1"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-wonderland-wood.json",
+          "sha256": "424777b7353b9ab915d1157e5ee6476d2ef71add5d3b431bcf11e28614b10f19"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-blueberry.json",
+          "sha256": "5d18eb23731cacb297f4a85fc6019c33a9ca10ab2a26dcfd7dd082ea87811a13"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mango.json",
+          "sha256": "4ecea564560fd81fd6e32610fe9143c1d2098883a80070fbf50879eb48789b7b"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mint.json",
+          "sha256": "928323b2115470bada731d4ea8ee67dac58f28c5ac34ff74c13cecde588c66b7"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-raspberry.json",
+          "sha256": "4b7bf82483bce31125f6ba0024b7e66f59874e026b78b5363c9371bfea65486c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-vanilla.json",
+          "sha256": "80f875a76e87dddef2b1632b0dd651777c7f483bbc786aad425725c09d44a28c"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-black.json",
+          "sha256": "1f657bc2385d0942f2391061786a78cbd3a3b3bce70e5667dd34efb84e7b6dba"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-metallian.json",
+          "sha256": "7d40e1f03bd061658bae951f7543717b14fdda17bb4297cf794873c57ed076ad"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-reversed.json",
+          "sha256": "cdf1d250e420d361cbebcb12eac06860284807013c1a647f0302dfc22655fddf"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-stone.json",
+          "sha256": "6d9899b43efd310c01509e0525c5aaac7a77f9d0a844eb06160f892d282a084e"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-terra.json",
+          "sha256": "fd0764cd6b644f3c82ba0ca980117fe5d2e746db183d08725fc418b744d043d6"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oceanic-reversed.json",
+          "sha256": "7d18e1f6f68b86786a144d40b625d22239b838c43104dbfc605764fcbe4f8fb9"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oceanic.json",
+          "sha256": "ce739e37a33d9391e6ce8995b546d8317f9ac5903308032fcb1ea8653bd741ea"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oled.json",
+          "sha256": "b508ccedf274915b5c153c325ec94b3535e95d276ef8d733058b8320d349f86b"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-dark.json",
+          "sha256": "95e5be719447b93d8148372874f719786e81d038dcfcad7fd769090179d0e0c3"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-light.json",
+          "sha256": "d97e8f896c9c2fb4f38004b3c7be7db17d6d6d54ddfb1d86dba81e4370c66002"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-reversed.json",
+          "sha256": "93218f163667d64659f5d72526b18ae7d7e6056005196df316e642fb172efd32"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-stained-blue.json",
+          "sha256": "156ae65d2306f94eadc6eeb8e924009eb495acbef89dc2b04e2645df6d4746f2"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-stained-purple.json",
+          "sha256": "21e21b40bb7fd7d345f7a76efda223194b266b7c6d184f2b749b6db671bc1314"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-blueberry.json",
+          "sha256": "5194761ff62f2ee448fcbfd4a4cc38d9f44a16ffb5cda6197fd42ea6cfadeb83"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-eggplant.json",
+          "sha256": "72112d9ff789ea929b4b7d0bdd0c678b0f36caccb8395bd5ee971e00e5be4bec"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-watermelon.json",
+          "sha256": "d796ad2460cfaed44e9891bf5487dd826ef3e43d268780613791bb89ab84db87"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-black.json",
+          "sha256": "e7b46a1fa3fd3e07a594668e9a9ac04d3e781077de95730c5b271747f9fdbfa8"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-light.json",
+          "sha256": "d5d209faea963c4fe8a38002978aef4290309a4a78cb97b90191202cb97e70c0"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-purple.json",
+          "sha256": "9680a991a55e89f1be18e59c42fed7b43188c96ca5cb9696ca39675e3e5e6b65"
+        },
+        {
+          "file": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-void.json",
+          "sha256": "0780d7eb5b764e5f4d3fcfb94df65008910e901de5186ead90cadd8a25c6c049"
+        }
+      ]
+    }
+  ]
+}
