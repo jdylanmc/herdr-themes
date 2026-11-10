@@ -4,10 +4,10 @@ Source order: https://vscodethemes.com/?sort=installs, captured 2026-11-10T16:00
 The rank is the site's extension-listing order, not an ordering of individual variants.
 All dark, light and high-contrast contributions are accounted for; duplicate imports are omitted.
 
-138 palettes: 118 licensed ports and 20 independent original replacements.
-Winter is Coming italic/no-italic variants share one palette for each distinct color scheme.
+128 palettes: 108 licensed ports and 20 independent original replacements.
+Identical converted colors share one palette, including font-only variants and renamed copies.
 The five pre-existing themes remain unchanged and are not part of this count.
-5 redundant variants are omitted: existing Atom One Dark and Tokyo Night imports, and three Winter is Coming font-only duplicates.
+15 redundant variants are omitted, including imports that preserve existing Atom One Dark and Tokyo Night palettes.
 
 | Rank | Listing | Version | Variants | Treatment |
 | --- | --- | --- | --- | --- |
@@ -117,16 +117,16 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 - Winter is Coming (Dark Blue): [`winter-is-coming-dark-blue.json`](../themes/winter-is-coming-dark-blue.json) (dark)
 - Winter is Coming (Light): [`winter-is-coming-light.json`](../themes/winter-is-coming-light.json) (light)
 - Winter is Coming (Dark Black): [`winter-is-coming-dark-black.json`](../themes/winter-is-coming-dark-black.json) (dark)
-- Winter is Coming (Dark Blue - No Italics): keep existing `winter-is-coming-dark-blue`. Font-only variant has identical Herdr colors; share the existing palette.
-- Winter is Coming (Light - No Italics): keep existing `winter-is-coming-light`. Font-only variant has identical Herdr colors; share the existing palette.
-- Winter is Coming (Dark Black - No Italics): keep existing `winter-is-coming-dark-black`. Font-only variant has identical Herdr colors; share the existing palette.
+- Winter is Coming (Dark Blue - No Italics): keep existing `winter-is-coming-dark-blue`. Identical Herdr colors; share the existing palette.
+- Winter is Coming (Light - No Italics): keep existing `winter-is-coming-light`. Identical Herdr colors; share the existing palette.
+- Winter is Coming (Dark Black - No Italics): keep existing `winter-is-coming-dark-black`. Identical Herdr colors; share the existing palette.
 
 ### 11. Night Owl
 
 - Night Owl: [`night-owl.json`](../themes/night-owl.json) (dark)
-- Night Owl (No Italics): [`night-owl-no-italics.json`](../themes/night-owl-no-italics.json) (dark)
 - Night Owl Light: [`night-owl-light.json`](../themes/night-owl-light.json) (light)
-- Night Owl Light (No Italics): [`night-owl-light-no-italics.json`](../themes/night-owl-light-no-italics.json) (light)
+- Night Owl (No Italics): keep existing `night-owl`. Identical Herdr colors; share the existing palette.
+- Night Owl Light (No Italics): keep existing `night-owl-light`. Identical Herdr colors; share the existing palette.
 
 ### 12. Tokyo Night
 
@@ -141,9 +141,9 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 ### 14. Palenight Theme
 
 - Palenight Theme: [`palenight-theme.json`](../themes/palenight-theme.json) (dark)
-- Palenight Italic: [`palenight-italic.json`](../themes/palenight-italic.json) (dark)
-- Palenight Operator: [`palenight-operator.json`](../themes/palenight-operator.json) (dark)
 - Palenight (Mild Contrast): [`palenight-mild-contrast.json`](../themes/palenight-mild-contrast.json) (dark)
+- Palenight Italic: keep existing `palenight-theme`. Identical Herdr colors; share the existing palette.
+- Palenight Operator: keep existing `palenight-theme`. Identical Herdr colors; share the existing palette.
 
 ### 15. SynthWave '84
 
@@ -162,16 +162,16 @@ Replacement labels identify which requested slot they cover, not a visual equiva
 
 - Andromeda: [`andromeda.json`](../themes/andromeda.json) (dark)
 - Andromeda Bordered: [`andromeda-bordered.json`](../themes/andromeda-bordered.json) (dark)
-- Andromeda Italic Bordered: [`andromeda-italic-bordered.json`](../themes/andromeda-italic-bordered.json) (dark)
-- Andromeda Italic: [`andromeda-italic.json`](../themes/andromeda-italic.json) (dark)
 - Andromeda Colorizer: [`andromeda-colorizer.json`](../themes/andromeda-colorizer.json) (dark)
+- Andromeda Italic Bordered: keep existing `andromeda-bordered`. Identical Herdr colors; share the existing palette.
+- Andromeda Italic: keep existing `andromeda`. Identical Herdr colors; share the existing palette.
 
 ### 19. Theme
 
-- Theme: [`theme.json`](../themes/theme.json) (dark)
-- Theme Flat: [`theme-flat.json`](../themes/theme-flat.json) (dark)
-- Theme Mix: [`theme-mix.json`](../themes/theme-mix.json) (dark)
-- Theme Darker: [`theme-darker.json`](../themes/theme-darker.json) (dark)
+- Theme: keep existing `one-dark-pro`. Identical Herdr colors; share the existing palette.
+- Theme Flat: keep existing `one-dark-pro-flat`. Identical Herdr colors; share the existing palette.
+- Theme Mix: keep existing `one-dark-pro-mix`. Identical Herdr colors; share the existing palette.
+- Theme Darker: keep existing `one-dark-pro-darker`. Identical Herdr colors; share the existing palette.
 
 ### 20. Bearded Theme
 

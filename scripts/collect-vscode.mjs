@@ -9,11 +9,6 @@ const cache = process.argv[2];
 if (!cache) throw new Error("Usage: node scripts/collect-vscode.mjs <captured-source-directory>");
 const snapshot = JSON.parse(await readFile(path.join(cache, "snapshot.json"), "utf8"));
 snapshot.keepExistingNames = ["atom-one-dark.json", "tokyo-night.json"];
-snapshot.paletteAliases = {
-  "winter-is-coming-dark-blue-no-italics.json": "winter-is-coming-dark-blue.json",
-  "winter-is-coming-light-no-italics.json": "winter-is-coming-light.json",
-  "winter-is-coming-dark-black-no-italics.json": "winter-is-coming-dark-black.json",
-};
 const restricted = new Set(["Equinusocio.vsc-material-theme", "monokai.theme-monokai-pro-vscode"]);
 const approved = new Set([
   "ms-vscode.cpptools-themes", "ms-vscode.PowerShell", "GitHub.github-vscode-theme",

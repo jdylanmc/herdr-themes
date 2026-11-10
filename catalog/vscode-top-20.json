@@ -838,23 +838,6 @@
       "rank": 11,
       "extension": "sdras.night-owl",
       "version": "2.1.1",
-      "sourceLabel": "Night Owl (No Italics)",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "night-owl-no-italics.json",
-      "kind": "port",
-      "inferred": [
-        "background",
-        "foreground",
-        "muted"
-      ],
-      "source": "sources/vscode/sdras.night-owl/themes/Night Owl-color-theme-noitalic.json"
-    },
-    {
-      "rank": 11,
-      "extension": "sdras.night-owl",
-      "version": "2.1.1",
       "sourceLabel": "Night Owl Light",
       "appearance": "light",
       "sourceUiTheme": "vs",
@@ -863,19 +846,6 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme.json"
-    },
-    {
-      "rank": 11,
-      "extension": "sdras.night-owl",
-      "version": "2.1.1",
-      "sourceLabel": "Night Owl Light (No Italics)",
-      "appearance": "light",
-      "sourceUiTheme": "vs",
-      "license": "MIT",
-      "file": "night-owl-light-no-italics.json",
-      "kind": "port",
-      "inferred": [],
-      "source": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme-noitalic.json"
     },
     {
       "rank": 12,
@@ -937,40 +907,6 @@
         "muted"
       ],
       "source": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight.json"
-    },
-    {
-      "rank": 14,
-      "extension": "whizkydee.material-palenight-theme",
-      "version": "2.0.5",
-      "sourceLabel": "Palenight Italic",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "palenight-italic.json",
-      "kind": "port",
-      "inferred": [
-        "background",
-        "foreground",
-        "muted"
-      ],
-      "source": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-italic.json"
-    },
-    {
-      "rank": 14,
-      "extension": "whizkydee.material-palenight-theme",
-      "version": "2.0.5",
-      "sourceLabel": "Palenight Operator",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "palenight-operator.json",
-      "kind": "port",
-      "inferred": [
-        "background",
-        "foreground",
-        "muted"
-      ],
-      "source": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-operator.json"
     },
     {
       "rank": 14,
@@ -1100,52 +1036,6 @@
       "rank": 18,
       "extension": "EliverLara.andromeda",
       "version": "1.10.0",
-      "sourceLabel": "Andromeda Italic Bordered",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "andromeda-italic-bordered.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "ansi0",
-        "ansi15",
-        "ansi7",
-        "ansi8",
-        "background",
-        "foreground",
-        "muted",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme-bordered.json"
-    },
-    {
-      "rank": 18,
-      "extension": "EliverLara.andromeda",
-      "version": "1.10.0",
-      "sourceLabel": "Andromeda Italic",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "andromeda-italic.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "ansi0",
-        "ansi15",
-        "ansi7",
-        "ansi8",
-        "background",
-        "foreground",
-        "muted",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme.json"
-    },
-    {
-      "rank": 18,
-      "extension": "EliverLara.andromeda",
-      "version": "1.10.0",
       "sourceLabel": "Andromeda Colorizer",
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
@@ -1188,70 +1078,6 @@
         "surface"
       ],
       "source": "sources/vscode/EliverLara.andromeda/themes/Andromeda-colorizer.json"
-    },
-    {
-      "rank": 19,
-      "extension": "tal7aouy.theme",
-      "version": "3.1.0",
-      "sourceLabel": "Theme",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "theme.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/tal7aouy.theme/themes/Theme.json"
-    },
-    {
-      "rank": 19,
-      "extension": "tal7aouy.theme",
-      "version": "3.1.0",
-      "sourceLabel": "Theme Flat",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "theme-flat.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/tal7aouy.theme/themes/ThemeFlat.json"
-    },
-    {
-      "rank": 19,
-      "extension": "tal7aouy.theme",
-      "version": "3.1.0",
-      "sourceLabel": "Theme Mix",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "theme-mix.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/tal7aouy.theme/themes/ThemeMix.json"
-    },
-    {
-      "rank": 19,
-      "extension": "tal7aouy.theme",
-      "version": "3.1.0",
-      "sourceLabel": "Theme Darker",
-      "appearance": "dark",
-      "sourceUiTheme": "vs-dark",
-      "license": "MIT",
-      "file": "theme-darker.json",
-      "kind": "port",
-      "inferred": [
-        "accent_foreground",
-        "solid_foreground"
-      ],
-      "source": "sources/vscode/tal7aouy.theme/themes/ThemeDarker.json"
     },
     {
       "rank": 20,
@@ -2007,8 +1833,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-flurry.json",
-      "notice": "themes/hc-flurry.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/hc-flurry.json.license"
     },
     {
       "rank": 20,
@@ -2022,8 +1848,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-raspberry.json",
-      "notice": "themes/milkshake-raspberry.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/milkshake-raspberry.json.license"
     },
     {
       "rank": 20,
@@ -2037,8 +1863,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-blueberry.json",
-      "notice": "themes/milkshake-blueberry.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/milkshake-blueberry.json.license"
     },
     {
       "rank": 20,
@@ -2052,8 +1878,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mango.json",
-      "notice": "themes/milkshake-mango.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/milkshake-mango.json.license"
     },
     {
       "rank": 20,
@@ -2067,8 +1893,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mint.json",
-      "notice": "themes/milkshake-mint.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/milkshake-mint.json.license"
     },
     {
       "rank": 20,
@@ -2082,8 +1908,8 @@
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-vanilla.json",
-      "notice": "themes/milkshake-vanilla-banana.json.license",
-      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
+      "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs.",
+      "notice": "themes/milkshake-vanilla-banana.json.license"
     },
     {
       "rank": 20,
@@ -2167,26 +1993,87 @@
     {
       "rank": 10,
       "extension": "johnpapa.winteriscoming",
+      "version": "1.5.0",
       "sourceLabel": "Winter is Coming (Dark Blue - No Italics)",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
       "file": "winter-is-coming-dark-blue-no-italics.json",
+      "kind": "port",
+      "inferred": [
+        "muted"
+      ],
+      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-blue-color-no-italics-theme.json",
       "existingTheme": "winter-is-coming-dark-blue",
-      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
+      "reason": "Identical Herdr colors; share the existing palette."
     },
     {
       "rank": 10,
       "extension": "johnpapa.winteriscoming",
+      "version": "1.5.0",
       "sourceLabel": "Winter is Coming (Light - No Italics)",
+      "appearance": "light",
+      "sourceUiTheme": "vs",
+      "license": "MIT",
       "file": "winter-is-coming-light-no-italics.json",
+      "kind": "port",
+      "inferred": [
+        "muted"
+      ],
+      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-light-color-no-italics-theme.json",
       "existingTheme": "winter-is-coming-light",
-      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
+      "reason": "Identical Herdr colors; share the existing palette."
     },
     {
       "rank": 10,
       "extension": "johnpapa.winteriscoming",
+      "version": "1.5.0",
       "sourceLabel": "Winter is Coming (Dark Black - No Italics)",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
       "file": "winter-is-coming-dark-black-no-italics.json",
+      "kind": "port",
+      "inferred": [
+        "muted"
+      ],
+      "source": "sources/vscode/johnpapa.winteriscoming/themes/WinterIsComing-dark-color-no-italics-theme.json",
       "existingTheme": "winter-is-coming-dark-black",
-      "reason": "Font-only variant has identical Herdr colors; share the existing palette."
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 11,
+      "extension": "sdras.night-owl",
+      "version": "2.1.1",
+      "sourceLabel": "Night Owl (No Italics)",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "night-owl-no-italics.json",
+      "kind": "port",
+      "inferred": [
+        "background",
+        "foreground",
+        "muted"
+      ],
+      "source": "sources/vscode/sdras.night-owl/themes/Night Owl-color-theme-noitalic.json",
+      "existingTheme": "night-owl",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 11,
+      "extension": "sdras.night-owl",
+      "version": "2.1.1",
+      "sourceLabel": "Night Owl Light (No Italics)",
+      "appearance": "light",
+      "sourceUiTheme": "vs",
+      "license": "MIT",
+      "file": "night-owl-light-no-italics.json",
+      "kind": "port",
+      "inferred": [],
+      "source": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme-noitalic.json",
+      "existingTheme": "night-owl-light",
+      "reason": "Identical Herdr colors; share the existing palette."
     },
     {
       "rank": 12,
@@ -2194,6 +2081,166 @@
       "sourceLabel": "Tokyo Night",
       "existingTheme": "tokyo-night",
       "reason": "Keep the existing palette; omit the duplicate import."
+    },
+    {
+      "rank": 14,
+      "extension": "whizkydee.material-palenight-theme",
+      "version": "2.0.5",
+      "sourceLabel": "Palenight Italic",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "palenight-italic.json",
+      "kind": "port",
+      "inferred": [
+        "background",
+        "foreground",
+        "muted"
+      ],
+      "source": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-italic.json",
+      "existingTheme": "palenight-theme",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 14,
+      "extension": "whizkydee.material-palenight-theme",
+      "version": "2.0.5",
+      "sourceLabel": "Palenight Operator",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "palenight-operator.json",
+      "kind": "port",
+      "inferred": [
+        "background",
+        "foreground",
+        "muted"
+      ],
+      "source": "sources/vscode/whizkydee.material-palenight-theme/themes/palenight-operator.json",
+      "existingTheme": "palenight-theme",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 18,
+      "extension": "EliverLara.andromeda",
+      "version": "1.10.0",
+      "sourceLabel": "Andromeda Italic Bordered",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "andromeda-italic-bordered.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "ansi0",
+        "ansi15",
+        "ansi7",
+        "ansi8",
+        "background",
+        "foreground",
+        "muted",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme-bordered.json",
+      "existingTheme": "andromeda-bordered",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 18,
+      "extension": "EliverLara.andromeda",
+      "version": "1.10.0",
+      "sourceLabel": "Andromeda Italic",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "andromeda-italic.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "ansi0",
+        "ansi15",
+        "ansi7",
+        "ansi8",
+        "background",
+        "foreground",
+        "muted",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/EliverLara.andromeda/themes/Andromeda-italic-color-theme.json",
+      "existingTheme": "andromeda",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 19,
+      "extension": "tal7aouy.theme",
+      "version": "3.1.0",
+      "sourceLabel": "Theme",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "theme.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/tal7aouy.theme/themes/Theme.json",
+      "existingTheme": "one-dark-pro",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 19,
+      "extension": "tal7aouy.theme",
+      "version": "3.1.0",
+      "sourceLabel": "Theme Flat",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "theme-flat.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/tal7aouy.theme/themes/ThemeFlat.json",
+      "existingTheme": "one-dark-pro-flat",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 19,
+      "extension": "tal7aouy.theme",
+      "version": "3.1.0",
+      "sourceLabel": "Theme Mix",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "theme-mix.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/tal7aouy.theme/themes/ThemeMix.json",
+      "existingTheme": "one-dark-pro-mix",
+      "reason": "Identical Herdr colors; share the existing palette."
+    },
+    {
+      "rank": 19,
+      "extension": "tal7aouy.theme",
+      "version": "3.1.0",
+      "sourceLabel": "Theme Darker",
+      "appearance": "dark",
+      "sourceUiTheme": "vs-dark",
+      "license": "MIT",
+      "file": "theme-darker.json",
+      "kind": "port",
+      "inferred": [
+        "accent_foreground",
+        "solid_foreground"
+      ],
+      "source": "sources/vscode/tal7aouy.theme/themes/ThemeDarker.json",
+      "existingTheme": "one-dark-pro-darker",
+      "reason": "Identical Herdr colors; share the existing palette."
     }
   ]
 }

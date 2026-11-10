@@ -89,6 +89,13 @@ export function paletteFileName(label) {
   return `${slug(name)}.json`;
 }
 
+export function paletteKey(palette) {
+  return JSON.stringify([
+    palette.background, palette.foreground, palette.selection, palette.cursor, palette.ansi,
+    Object.keys(palette.colors).sort().map((key) => [key, palette.colors[key]]),
+  ]);
+}
+
 export function isHerdrLight(background) {
   return [0, 2, 4].reduce((sum, index, channel) =>
     sum + parseInt(background.slice(index + 1, index + 3), 16) / 255 *

@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
-import { convertTheme, isHerdrLight, mergeTheme, originalPalette, readJsonc } from "./palette.mjs";
+import { convertTheme, isHerdrLight, mergeTheme, originalPalette, paletteKey, readJsonc } from "./palette.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const snapshot = JSON.parse(await readFile(path.join(root, "sources/vscode-top-20.json"), "utf8"));
@@ -9,7 +9,12 @@ const originals = JSON.parse(await readFile(path.join(root, "sources/originals.j
 const catalog = [];
 const omitted = [];
 const keepExistingNames = new Set(snapshot.keepExistingNames);
-const names = new Map();
+const names = new Set();
+const byPalette = new Map();
+for (const name of ["son-of-obsidian", "tokyo-night", "nord", "nebula-dark", "nebula-light"]) {
+  const palette = JSON.parse(await readFile(path.join(root, "themes", `${name}.json`), "utf8"));
+  byPalette.set(paletteKey(palette), `${name}.json`);
+}
 for (const entry of snapshot.entries) {
   const restricted = entry.license.startsWith("restricted:");
   if (!restricted) {
@@ -20,7 +25,9 @@ for (const entry of snapshot.entries) {
       }
     }
   }
-  for (const [index, variant] of entry.variants.entries()) {
+  const fontOnly = (variant) => /-(?:no-italics|italic|operator)(?:-|\.json$)/.test(variant.file);
+  const variants = [...entry.variants.entries()].sort(([, a], [, b]) => Number(fontOnly(a)) - Number(fontOnly(b)));
+  for (const [index, variant] of variants) {
     if (!restricted && keepExistingNames.has(variant.file)) {
       omitted.push({
         rank: entry.rank, extension: entry.id, sourceLabel: variant.label,
@@ -63,28 +70,6 @@ for (const entry of snapshot.entries) {
       record.inferred = result.inferred;
       record.source = `${entry.sourceDir}/${variant.path}`;
       palette = result.palette;
-      const alias = snapshot.paletteAliases[record.file];
-      if (alias) {
-        if (names.get(alias) !== JSON.stringify(palette)) {
-          throw new Error(`Alias ${record.file} must match an earlier generated palette: ${alias}`);
-        }
-        omitted.push({
-          rank: entry.rank, extension: entry.id, sourceLabel: variant.label,
-          file: record.file, existingTheme: path.basename(alias, ".json"),
-          reason: "Font-only variant has identical Herdr colors; share the existing palette.",
-        });
-        continue;
-      }
-      if (entry.license === "GPL-3.0-only") {
-        record.notice = `themes/${record.file}.license`;
-        await writeFile(path.join(root, record.notice),
-          `SPDX-License-Identifier: GPL-3.0-only\n\n` +
-          `Modified ${snapshot.capturedAt.slice(0, 10)}: ${record.file} was converted from ` +
-          `Bearded Theme ${entry.version} to Herdr colors.\n` +
-          `Original source: ${record.source}\n` +
-          `Complete corresponding source: ${entry.correspondingSource.archive}\n` +
-          `Original license and notices: ${entry.licenses.join(", ")}\n`);
-      }
     }
     const nativeAppearance = isHerdrLight(palette.background) ? "light" : "dark";
     if (nativeAppearance !== record.appearance) {
@@ -92,7 +77,27 @@ for (const entry of snapshot.entries) {
       record.appearance = nativeAppearance;
     }
     if (names.has(record.file)) throw new Error(`Duplicate output name: ${record.file}`);
-    names.set(record.file, JSON.stringify(palette));
+    const key = paletteKey(palette);
+    const alias = byPalette.get(key);
+    if (alias) {
+      omitted.push({
+        ...record, existingTheme: path.basename(alias, ".json"),
+        reason: "Identical Herdr colors; share the existing palette.",
+      });
+      continue;
+    }
+    names.add(record.file);
+    byPalette.set(key, record.file);
+    if (entry.license === "GPL-3.0-only") {
+      record.notice = `themes/${record.file}.license`;
+      await writeFile(path.join(root, record.notice),
+        `SPDX-License-Identifier: GPL-3.0-only\n\n` +
+        `Modified ${snapshot.capturedAt.slice(0, 10)}: ${record.file} was converted from ` +
+        `Bearded Theme ${entry.version} to Herdr colors.\n` +
+        `Original source: ${record.source}\n` +
+        `Complete corresponding source: ${entry.correspondingSource.archive}\n` +
+        `Original license and notices: ${entry.licenses.join(", ")}\n`);
+    }
     await writeFile(path.join(root, "themes", record.file), JSON.stringify(palette, null, 2) + "\n");
     catalog.push(record);
   }
@@ -113,9 +118,9 @@ const lines = [
   "",
   `${catalog.length} palettes: ${catalog.filter((entry) => entry.kind === "port").length} licensed ports and ` +
     `${catalog.filter((entry) => entry.kind !== "port").length} independent original replacements.`,
-  "Winter is Coming italic/no-italic variants share one palette for each distinct color scheme.",
+  "Identical converted colors share one palette, including font-only variants and renamed copies.",
   "The five pre-existing themes remain unchanged and are not part of this count.",
-  `${omitted.length} redundant variants are omitted: existing Atom One Dark and Tokyo Night imports, and three Winter is Coming font-only duplicates.`,
+  `${omitted.length} redundant variants are omitted, including imports that preserve existing Atom One Dark and Tokyo Night palettes.`,
   "",
   "| Rank | Listing | Version | Variants | Treatment |",
   "| --- | --- | --- | --- | --- |",

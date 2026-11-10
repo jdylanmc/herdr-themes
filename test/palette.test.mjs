@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { convertTheme, isHerdrLight, mergeTheme, opaque, originalPalette, paletteFileName, readJsonc } from "../scripts/palette.mjs";
+import { convertTheme, isHerdrLight, mergeTheme, opaque, originalPalette, paletteFileName, paletteKey, readJsonc } from "../scripts/palette.mjs";
 
 test("JSONC preserves strings and accepts comments and trailing commas", () => {
   assert.deepEqual(readJsonc('{"url":"https://example.test",/* note */"x":1,}', "fixture"),
@@ -78,6 +78,20 @@ test("picker filenames use theme labels without collection branding", () => {
   assert.equal(paletteFileName("Bearded-Bear Bearded-Theme Solarized"), "solarized.json");
   assert.equal(paletteFileName("Bearded Themanopia (Experimental)"), "themanopia-experimental.json");
   assert.equal(paletteFileName("GitHub Dark"), "github-dark.json");
+});
+
+test("duplicate detection ignores key order but preserves panel and ANSI differences", () => {
+  const palette = originalPalette({ hue: 18, accentHue: 172, rotation: 8 });
+  const reordered = Object.fromEntries(Object.entries({
+    ...palette, colors: Object.fromEntries(Object.entries(palette.colors).reverse()),
+  }).reverse());
+  assert.equal(paletteKey(palette), paletteKey(reordered));
+  assert.notEqual(paletteKey(palette), paletteKey({
+    ...palette, colors: { ...palette.colors, accent: "#abcdef" },
+  }));
+  assert.notEqual(paletteKey(palette), paletteKey({
+    ...palette, ansi: ["#abcdef", ...palette.ansi.slice(1)],
+  }));
 });
 
 test("independent originals cover both appearances and deliberate contrast variants", () => {

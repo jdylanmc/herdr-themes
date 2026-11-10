@@ -21,13 +21,10 @@ assert len(catalog["palettes"]) + len(catalog["omitted"]) == sum(
 ), "Missing contributed variants"
 generated = [Path(palette["file"]).stem for palette in catalog["palettes"]]
 assert len(generated) == len(set(generated)), "Duplicate palette names"
-for alias, target in snapshot["paletteAliases"].items():
-    assert Path(alias).stem not in generated, f"Redundant font variant: {alias}"
-    assert Path(target).stem in generated, f"Missing alias target: {target}"
-    assert any(
-        item.get("file") == alias and item["existingTheme"] == Path(target).stem
-        for item in catalog["omitted"]
-    ), f"Missing alias provenance: {alias}"
+for item in catalog["omitted"]:
+    if "file" in item:
+        assert Path(item["file"]).stem not in generated, f"Redundant palette: {item['file']}"
+        assert item["existingTheme"] in generated or item["existingTheme"] in expected, item
 expected.update(generated)
 for entry in snapshot["entries"]:
     assert sum(
@@ -47,8 +44,12 @@ gpl_files = {
     if palette["license"] == "GPL-3.0-only"
 }
 
+unique = {}
 for path in files:
     theme = json.loads(path.read_text())
+    key = json.dumps(theme, sort_keys=True)
+    assert key not in unique, f"Duplicate palettes: {unique.get(key)} and {path.name}"
+    unique[key] = path.name
     assert set(theme) == {
         "background", "foreground", "selection", "cursor", "ansi", "colors"
     }, f"{path.name}: unexpected or missing fields"
