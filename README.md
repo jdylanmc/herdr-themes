@@ -79,7 +79,7 @@ Each GPL palette has an adjacent `.json.license` modification notice.
 Tokyo Night's JSON file is a modified format conversion of its upstream
 terminal palette with additional Herdr panel and status color mappings.
 The other initial palettes are adaptations with the mappings described above.
-The expansion's `original-*` files are independently authored designs.
+Independently authored designs are identified by `kind` in the expansion catalog.
 
 ## Validate
 

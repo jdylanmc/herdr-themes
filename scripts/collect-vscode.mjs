@@ -46,7 +46,7 @@ for (const entry of snapshot.entries) {
   entry.variants = manifest.contributes.themes.map((theme) => ({
     label: theme.label ?? theme.id, uiTheme: theme.uiTheme,
     path: path.posix.normalize(theme.path),
-    file: `vscode-${slug(entry.id.split(".")[0])}-${slug(theme.label ?? theme.id)}.json`,
+    file: `${slug(entry.id.split(".")[0]).replace(/-vscode$/, "")}-${slug(theme.label ?? theme.id)}.json`,
   }));
   if (restricted.has(entry.id)) {
     console.log(`${entry.id}: metadata only; no theme colors extracted`);

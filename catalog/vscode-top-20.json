@@ -11,7 +11,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-ms-vscode-dark-visual-studio-c-c.json",
+      "file": "ms-dark-visual-studio-c-c.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -55,7 +55,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-ms-vscode-2017-dark-visual-studio-c-c.json",
+      "file": "ms-2017-dark-visual-studio-c-c.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -99,7 +99,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-ms-vscode-light-visual-studio-c-c.json",
+      "file": "ms-light-visual-studio-c-c.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -143,7 +143,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-ms-vscode-2017-light-visual-studio-c-c.json",
+      "file": "ms-2017-light-visual-studio-c-c.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -187,7 +187,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-ms-vscode-powershell-ise.json",
+      "file": "ms-powershell-ise.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -230,7 +230,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-github-github-light-default.json",
+      "file": "github-github-light-default.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -246,7 +246,7 @@
       "appearance": "light",
       "sourceUiTheme": "hc-light",
       "license": "MIT",
-      "file": "vscode-github-github-light-high-contrast.json",
+      "file": "github-github-light-high-contrast.json",
       "kind": "port",
       "inferred": [
         "background"
@@ -261,7 +261,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-github-github-light-colorblind-beta.json",
+      "file": "github-github-light-colorblind-beta.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -277,7 +277,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-github-github-dark-default.json",
+      "file": "github-github-dark-default.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -293,7 +293,7 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "MIT",
-      "file": "vscode-github-github-dark-high-contrast.json",
+      "file": "github-github-dark-high-contrast.json",
       "kind": "port",
       "inferred": [
         "background"
@@ -308,7 +308,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-github-github-dark-colorblind-beta.json",
+      "file": "github-github-dark-colorblind-beta.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -324,7 +324,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-github-github-dark-dimmed.json",
+      "file": "github-github-dark-dimmed.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -340,7 +340,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-github-github-light.json",
+      "file": "github-github-light.json",
       "kind": "port",
       "inferred": [
         "background"
@@ -355,7 +355,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-github-github-dark.json",
+      "file": "github-github-dark.json",
       "kind": "port",
       "inferred": [
         "background"
@@ -370,7 +370,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-zhuangtongfa-one-dark-pro.json",
+      "file": "zhuangtongfa-one-dark-pro.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -386,7 +386,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-zhuangtongfa-one-dark-pro-flat.json",
+      "file": "zhuangtongfa-one-dark-pro-flat.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -402,7 +402,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-zhuangtongfa-one-dark-pro-darker.json",
+      "file": "zhuangtongfa-one-dark-pro-darker.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -418,7 +418,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-zhuangtongfa-one-dark-pro-mix.json",
+      "file": "zhuangtongfa-one-dark-pro-mix.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -434,7 +434,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-zhuangtongfa-one-dark-pro-night-flat.json",
+      "file": "zhuangtongfa-one-dark-pro-night-flat.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -450,7 +450,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-dracula-theme-dracula-theme.json",
+      "file": "dracula-theme-dracula-theme.json",
       "kind": "port",
       "inferred": [
         "cursor",
@@ -466,7 +466,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-dracula-theme-dracula-theme-soft.json",
+      "file": "dracula-theme-dracula-theme-soft.json",
       "kind": "port",
       "inferred": [
         "cursor",
@@ -482,7 +482,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-akamud-atom-one-dark.json",
+      "file": "akamud-atom-one-dark.json",
       "kind": "port",
       "inferred": [
         "ansi0",
@@ -515,7 +515,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-kiln.json",
+      "file": "kiln.json",
       "kind": "independent original; not a port"
     },
     {
@@ -526,7 +526,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-kiln-contrast.json",
+      "file": "kiln-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -537,7 +537,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-blueprint.json",
+      "file": "blueprint.json",
       "kind": "independent original; not a port"
     },
     {
@@ -548,7 +548,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-blueprint-contrast.json",
+      "file": "blueprint-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -559,7 +559,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-damson.json",
+      "file": "damson.json",
       "kind": "independent original; not a port"
     },
     {
@@ -570,7 +570,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-damson-contrast.json",
+      "file": "damson-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -581,7 +581,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-patina.json",
+      "file": "patina.json",
       "kind": "independent original; not a port"
     },
     {
@@ -592,7 +592,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-patina-contrast.json",
+      "file": "patina-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -603,7 +603,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-lichen.json",
+      "file": "lichen.json",
       "kind": "independent original; not a port"
     },
     {
@@ -614,7 +614,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-lichen-contrast.json",
+      "file": "lichen-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -625,7 +625,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "original-porcelain.json",
+      "file": "porcelain.json",
       "kind": "independent original; not a port"
     },
     {
@@ -636,7 +636,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "original-porcelain-contrast.json",
+      "file": "porcelain-contrast.json",
       "kind": "independent original; not a port"
     },
     {
@@ -647,7 +647,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-light.json",
+      "file": "teabyii-ayu-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-light.json"
@@ -660,7 +660,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-mirage.json",
+      "file": "teabyii-ayu-mirage.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-mirage.json"
@@ -673,7 +673,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-dark.json",
+      "file": "teabyii-ayu-dark.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-dark.json"
@@ -686,7 +686,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-light-unbordered.json",
+      "file": "teabyii-ayu-light-unbordered.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-light-unbordered.json"
@@ -699,7 +699,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-mirage-unbordered.json",
+      "file": "teabyii-ayu-mirage-unbordered.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-mirage-unbordered.json"
@@ -712,7 +712,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-teabyii-ayu-dark-unbordered.json",
+      "file": "teabyii-ayu-dark-unbordered.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/teabyii.ayu/ayu-dark-unbordered.json"
@@ -725,7 +725,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-relay.json",
+      "file": "relay.json",
       "kind": "independent original; not a port"
     },
     {
@@ -736,7 +736,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-copperline.json",
+      "file": "copperline.json",
       "kind": "independent original; not a port"
     },
     {
@@ -747,7 +747,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-mulberry.json",
+      "file": "mulberry.json",
       "kind": "independent original; not a port"
     },
     {
@@ -758,7 +758,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-indigo-orchard.json",
+      "file": "indigo-orchard.json",
       "kind": "independent original; not a port"
     },
     {
@@ -769,7 +769,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-ironwood.json",
+      "file": "ironwood.json",
       "kind": "independent original; not a port"
     },
     {
@@ -780,7 +780,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "original-saltflat.json",
+      "file": "saltflat.json",
       "kind": "independent original; not a port"
     },
     {
@@ -791,7 +791,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "original-blue-chalk.json",
+      "file": "blue-chalk.json",
       "kind": "independent original; not a port"
     },
     {
@@ -802,7 +802,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "original-aurora-rail.json",
+      "file": "aurora-rail.json",
       "kind": "independent original; not a port"
     },
     {
@@ -813,7 +813,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-dark-blue.json",
+      "file": "johnpapa-winter-is-coming-dark-blue.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -828,7 +828,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-dark-blue-no-italics.json",
+      "file": "johnpapa-winter-is-coming-dark-blue-no-italics.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -843,7 +843,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-light.json",
+      "file": "johnpapa-winter-is-coming-light.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -858,7 +858,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-light-no-italics.json",
+      "file": "johnpapa-winter-is-coming-light-no-italics.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -873,7 +873,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-dark-black.json",
+      "file": "johnpapa-winter-is-coming-dark-black.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -888,7 +888,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-johnpapa-winter-is-coming-dark-black-no-italics.json",
+      "file": "johnpapa-winter-is-coming-dark-black-no-italics.json",
       "kind": "port",
       "inferred": [
         "muted"
@@ -903,7 +903,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-sdras-night-owl.json",
+      "file": "sdras-night-owl.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -920,7 +920,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-sdras-night-owl-no-italics.json",
+      "file": "sdras-night-owl-no-italics.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -937,7 +937,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-sdras-night-owl-light.json",
+      "file": "sdras-night-owl-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme.json"
@@ -950,7 +950,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-sdras-night-owl-light-no-italics.json",
+      "file": "sdras-night-owl-light-no-italics.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/sdras.night-owl/themes/Night Owl-Light-color-theme-noitalic.json"
@@ -963,7 +963,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-enkia-tokyo-night.json",
+      "file": "enkia-tokyo-night.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-color-theme.json"
@@ -976,7 +976,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-enkia-tokyo-night-storm.json",
+      "file": "enkia-tokyo-night-storm.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-storm-color-theme.json"
@@ -989,7 +989,7 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "MIT",
-      "file": "vscode-enkia-tokyo-night-light.json",
+      "file": "enkia-tokyo-night-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/enkia.tokyo-night/themes/tokyo-night-light-color-theme.json"
@@ -1002,7 +1002,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-azemoh-one-monokai.json",
+      "file": "azemoh-one-monokai.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1020,7 +1020,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-whizkydee-palenight-theme.json",
+      "file": "whizkydee-palenight-theme.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -1037,7 +1037,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-whizkydee-palenight-italic.json",
+      "file": "whizkydee-palenight-italic.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -1054,7 +1054,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-whizkydee-palenight-operator.json",
+      "file": "whizkydee-palenight-operator.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -1071,7 +1071,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-whizkydee-palenight-mild-contrast.json",
+      "file": "whizkydee-palenight-mild-contrast.json",
       "kind": "port",
       "inferred": [
         "background",
@@ -1088,7 +1088,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-robbowen-synthwave-84.json",
+      "file": "robbowen-synthwave-84.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1110,7 +1110,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-ahmadawais-shades-of-purple.json",
+      "file": "ahmadawais-shades-of-purple.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/ahmadawais.shades-of-purple/themes/shades-of-purple-color-theme.json"
@@ -1123,7 +1123,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-ahmadawais-shades-of-purple-super-dark.json",
+      "file": "ahmadawais-shades-of-purple-super-dark.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/ahmadawais.shades-of-purple/themes/shades-of-purple-color-theme-super-dark.json"
@@ -1136,7 +1136,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-wesbos-cobalt2.json",
+      "file": "wesbos-cobalt2.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/wesbos.theme-cobalt2/theme/cobalt2.json"
@@ -1149,7 +1149,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-eliverlara-andromeda.json",
+      "file": "eliverlara-andromeda.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1172,7 +1172,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-eliverlara-andromeda-bordered.json",
+      "file": "eliverlara-andromeda-bordered.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1195,7 +1195,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-eliverlara-andromeda-italic-bordered.json",
+      "file": "eliverlara-andromeda-italic-bordered.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1218,7 +1218,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-eliverlara-andromeda-italic.json",
+      "file": "eliverlara-andromeda-italic.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1241,7 +1241,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-eliverlara-andromeda-colorizer.json",
+      "file": "eliverlara-andromeda-colorizer.json",
       "kind": "port",
       "inferred": [
         "accent",
@@ -1288,7 +1288,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-tal7aouy-theme.json",
+      "file": "tal7aouy-theme.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1304,7 +1304,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-tal7aouy-theme-flat.json",
+      "file": "tal7aouy-theme-flat.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1320,7 +1320,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-tal7aouy-theme-mix.json",
+      "file": "tal7aouy-theme-mix.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1336,7 +1336,7 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "MIT",
-      "file": "vscode-tal7aouy-theme-darker.json",
+      "file": "tal7aouy-theme-darker.json",
       "kind": "port",
       "inferred": [
         "accent_foreground",
@@ -1352,11 +1352,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-monokai-metallian.json",
+      "file": "beardedbear-bearded-theme-monokai-metallian.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-metallian.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-monokai-metallian.json.license"
+      "notice": "themes/beardedbear-bearded-theme-monokai-metallian.json.license"
     },
     {
       "rank": 20,
@@ -1366,11 +1366,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-monokai-terra.json",
+      "file": "beardedbear-bearded-theme-monokai-terra.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-terra.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-monokai-terra.json.license"
+      "notice": "themes/beardedbear-bearded-theme-monokai-terra.json.license"
     },
     {
       "rank": 20,
@@ -1380,11 +1380,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-monokai-stone.json",
+      "file": "beardedbear-bearded-theme-monokai-stone.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-stone.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-monokai-stone.json.license"
+      "notice": "themes/beardedbear-bearded-theme-monokai-stone.json.license"
     },
     {
       "rank": 20,
@@ -1394,11 +1394,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-monokai-black.json",
+      "file": "beardedbear-bearded-theme-monokai-black.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-black.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-monokai-black.json.license"
+      "notice": "themes/beardedbear-bearded-theme-monokai-black.json.license"
     },
     {
       "rank": 20,
@@ -1408,11 +1408,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-monokai-reversed.json",
+      "file": "beardedbear-bearded-theme-monokai-reversed.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-monokai-reversed.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-monokai-reversed.json.license"
+      "notice": "themes/beardedbear-bearded-theme-monokai-reversed.json.license"
     },
     {
       "rank": 20,
@@ -1422,11 +1422,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-solarized.json",
+      "file": "beardedbear-bearded-theme-solarized.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-dark.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-solarized.json.license"
+      "notice": "themes/beardedbear-bearded-theme-solarized.json.license"
     },
     {
       "rank": 20,
@@ -1436,11 +1436,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-solarized-reversed.json",
+      "file": "beardedbear-bearded-theme-solarized-reversed.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-reversed.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-solarized-reversed.json.license"
+      "notice": "themes/beardedbear-bearded-theme-solarized-reversed.json.license"
     },
     {
       "rank": 20,
@@ -1450,11 +1450,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-solarized-light.json",
+      "file": "beardedbear-bearded-theme-solarized-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-solarized-light.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-solarized-light.json.license"
+      "notice": "themes/beardedbear-bearded-theme-solarized-light.json.license"
     },
     {
       "rank": 20,
@@ -1464,11 +1464,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-oceanic.json",
+      "file": "beardedbear-bearded-theme-oceanic.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oceanic.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-oceanic.json.license"
+      "notice": "themes/beardedbear-bearded-theme-oceanic.json.license"
     },
     {
       "rank": 20,
@@ -1478,11 +1478,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-oceanic-reversed.json",
+      "file": "beardedbear-bearded-theme-oceanic-reversed.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oceanic-reversed.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-oceanic-reversed.json.license"
+      "notice": "themes/beardedbear-bearded-theme-oceanic-reversed.json.license"
     },
     {
       "rank": 20,
@@ -1492,11 +1492,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-arc.json",
+      "file": "beardedbear-bearded-theme-arc.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-arc.json.license"
+      "notice": "themes/beardedbear-bearded-theme-arc.json.license"
     },
     {
       "rank": 20,
@@ -1506,11 +1506,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-arc-eggplant.json",
+      "file": "beardedbear-bearded-theme-arc-eggplant.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-eggplant.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-arc-eggplant.json.license"
+      "notice": "themes/beardedbear-bearded-theme-arc-eggplant.json.license"
     },
     {
       "rank": 20,
@@ -1520,11 +1520,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-arc-eolstorm.json",
+      "file": "beardedbear-bearded-theme-arc-eolstorm.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-eolstorm.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-arc-eolstorm.json.license"
+      "notice": "themes/beardedbear-bearded-theme-arc-eolstorm.json.license"
     },
     {
       "rank": 20,
@@ -1534,11 +1534,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-arc-blueberry.json",
+      "file": "beardedbear-bearded-theme-arc-blueberry.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-blueberry.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-arc-blueberry.json.license"
+      "notice": "themes/beardedbear-bearded-theme-arc-blueberry.json.license"
     },
     {
       "rank": 20,
@@ -1548,11 +1548,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-arc-reversed.json",
+      "file": "beardedbear-bearded-theme-arc-reversed.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-arc-reversed.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-arc-reversed.json.license"
+      "notice": "themes/beardedbear-bearded-theme-arc-reversed.json.license"
     },
     {
       "rank": 20,
@@ -1562,11 +1562,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-amethyst.json",
+      "file": "beardedbear-bearded-theme-black-amethyst.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-amethyst.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-amethyst.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-amethyst.json.license"
     },
     {
       "rank": 20,
@@ -1576,11 +1576,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-amethyst-soft.json",
+      "file": "beardedbear-bearded-theme-black-amethyst-soft.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-amethyst-soft.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-amethyst-soft.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-amethyst-soft.json.license"
     },
     {
       "rank": 20,
@@ -1590,11 +1590,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-diamond.json",
+      "file": "beardedbear-bearded-theme-black-diamond.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-diamond.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-diamond.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-diamond.json.license"
     },
     {
       "rank": 20,
@@ -1604,11 +1604,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-diamond-soft.json",
+      "file": "beardedbear-bearded-theme-black-diamond-soft.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-diamond-soft.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-diamond-soft.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-diamond-soft.json.license"
     },
     {
       "rank": 20,
@@ -1618,11 +1618,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-emerald.json",
+      "file": "beardedbear-bearded-theme-black-emerald.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-emerald.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-emerald.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-emerald.json.license"
     },
     {
       "rank": 20,
@@ -1632,11 +1632,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-emerald-soft.json",
+      "file": "beardedbear-bearded-theme-black-emerald-soft.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-emerald-soft.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-emerald-soft.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-emerald-soft.json.license"
     },
     {
       "rank": 20,
@@ -1646,11 +1646,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-gold.json",
+      "file": "beardedbear-bearded-theme-black-gold.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-gold.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-gold.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-gold.json.license"
     },
     {
       "rank": 20,
@@ -1660,11 +1660,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-gold-soft.json",
+      "file": "beardedbear-bearded-theme-black-gold-soft.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-gold-soft.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-gold-soft.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-gold-soft.json.license"
     },
     {
       "rank": 20,
@@ -1674,11 +1674,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-ruby.json",
+      "file": "beardedbear-bearded-theme-black-ruby.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-ruby.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-ruby.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-ruby.json.license"
     },
     {
       "rank": 20,
@@ -1688,11 +1688,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-black-ruby-soft.json",
+      "file": "beardedbear-bearded-theme-black-ruby-soft.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-black-&-ruby-soft.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-black-ruby-soft.json.license"
+      "notice": "themes/beardedbear-bearded-theme-black-ruby-soft.json.license"
     },
     {
       "rank": 20,
@@ -1702,11 +1702,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-stained-purple.json",
+      "file": "beardedbear-bearded-theme-stained-purple.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-stained-purple.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-stained-purple.json.license"
+      "notice": "themes/beardedbear-bearded-theme-stained-purple.json.license"
     },
     {
       "rank": 20,
@@ -1716,11 +1716,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-stained-blue.json",
+      "file": "beardedbear-bearded-theme-stained-blue.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-stained-blue.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-stained-blue.json.license"
+      "notice": "themes/beardedbear-bearded-theme-stained-blue.json.license"
     },
     {
       "rank": 20,
@@ -1730,11 +1730,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-vivid-purple.json",
+      "file": "beardedbear-bearded-theme-vivid-purple.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-purple.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-vivid-purple.json.license"
+      "notice": "themes/beardedbear-bearded-theme-vivid-purple.json.license"
     },
     {
       "rank": 20,
@@ -1744,11 +1744,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-vivid-black.json",
+      "file": "beardedbear-bearded-theme-vivid-black.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-black.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-vivid-black.json.license"
+      "notice": "themes/beardedbear-bearded-theme-vivid-black.json.license"
     },
     {
       "rank": 20,
@@ -1758,11 +1758,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-vivid-light.json",
+      "file": "beardedbear-bearded-theme-vivid-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-vivid-light.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-vivid-light.json.license"
+      "notice": "themes/beardedbear-bearded-theme-vivid-light.json.license"
     },
     {
       "rank": 20,
@@ -1772,11 +1772,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-will.json",
+      "file": "beardedbear-bearded-theme-feat-will.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-will.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-will.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-will.json.license"
     },
     {
       "rank": 20,
@@ -1786,11 +1786,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-gold-d-raynh.json",
+      "file": "beardedbear-bearded-theme-feat-gold-d-raynh.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-gold-d-raynh.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-gold-d-raynh.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-gold-d-raynh.json.license"
     },
     {
       "rank": 20,
@@ -1800,11 +1800,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-melle-julie.json",
+      "file": "beardedbear-bearded-theme-feat-melle-julie.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-mellejulie.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-melle-julie.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-melle-julie.json.license"
     },
     {
       "rank": 20,
@@ -1814,11 +1814,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-melle-julie-light.json",
+      "file": "beardedbear-bearded-theme-feat-melle-julie-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-mellejulie-light.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-melle-julie-light.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-melle-julie-light.json.license"
     },
     {
       "rank": 20,
@@ -1828,11 +1828,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-mintshake-d-raynh.json",
+      "file": "beardedbear-bearded-theme-feat-mintshake-d-raynh.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-gold-d-raynh-light.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-mintshake-d-raynh.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-mintshake-d-raynh.json.license"
     },
     {
       "rank": 20,
@@ -1842,11 +1842,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-feat-webdevcody.json",
+      "file": "beardedbear-bearded-theme-feat-webdevcody.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-feat-webDevCody.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-feat-webdevcody.json.license"
+      "notice": "themes/beardedbear-bearded-theme-feat-webdevcody.json.license"
     },
     {
       "rank": 20,
@@ -1856,11 +1856,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-earth.json",
+      "file": "beardedbear-bearded-theme-earth.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-earth.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-earth.json.license"
+      "notice": "themes/beardedbear-bearded-theme-earth.json.license"
     },
     {
       "rank": 20,
@@ -1870,11 +1870,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-coffee.json",
+      "file": "beardedbear-bearded-theme-coffee.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-coffee.json.license"
+      "notice": "themes/beardedbear-bearded-theme-coffee.json.license"
     },
     {
       "rank": 20,
@@ -1884,11 +1884,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-coffee-reversed.json",
+      "file": "beardedbear-bearded-theme-coffee-reversed.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee-reversed.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-coffee-reversed.json.license"
+      "notice": "themes/beardedbear-bearded-theme-coffee-reversed.json.license"
     },
     {
       "rank": 20,
@@ -1898,11 +1898,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-coffee-cream.json",
+      "file": "beardedbear-bearded-theme-coffee-cream.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-coffee-cream.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-coffee-cream.json.license"
+      "notice": "themes/beardedbear-bearded-theme-coffee-cream.json.license"
     },
     {
       "rank": 20,
@@ -1912,11 +1912,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-void.json",
+      "file": "beardedbear-bearded-theme-void.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-void.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-void.json.license"
+      "notice": "themes/beardedbear-bearded-theme-void.json.license"
     },
     {
       "rank": 20,
@@ -1926,11 +1926,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-altica.json",
+      "file": "beardedbear-bearded-theme-altica.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-altica.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-altica.json.license"
+      "notice": "themes/beardedbear-bearded-theme-altica.json.license"
     },
     {
       "rank": 20,
@@ -1940,11 +1940,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-anthracite.json",
+      "file": "beardedbear-bearded-theme-anthracite.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-classics-anthracite.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-anthracite.json.license"
+      "notice": "themes/beardedbear-bearded-theme-anthracite.json.license"
     },
     {
       "rank": 20,
@@ -1954,11 +1954,11 @@
       "appearance": "light",
       "sourceUiTheme": "vs",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-light.json",
+      "file": "beardedbear-bearded-theme-light.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-classics-light.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-light.json.license"
+      "notice": "themes/beardedbear-bearded-theme-light.json.license"
     },
     {
       "rank": 20,
@@ -1968,11 +1968,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-surprising-eggplant.json",
+      "file": "beardedbear-bearded-theme-surprising-eggplant.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-eggplant.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-surprising-eggplant.json.license"
+      "notice": "themes/beardedbear-bearded-theme-surprising-eggplant.json.license"
     },
     {
       "rank": 20,
@@ -1982,11 +1982,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-surprising-blueberry.json",
+      "file": "beardedbear-bearded-theme-surprising-blueberry.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-blueberry.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-surprising-blueberry.json.license"
+      "notice": "themes/beardedbear-bearded-theme-surprising-blueberry.json.license"
     },
     {
       "rank": 20,
@@ -1996,11 +1996,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-surprising-watermelon.json",
+      "file": "beardedbear-bearded-theme-surprising-watermelon.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-surprising-watermelon.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-surprising-watermelon.json.license"
+      "notice": "themes/beardedbear-bearded-theme-surprising-watermelon.json.license"
     },
     {
       "rank": 20,
@@ -2010,11 +2010,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-ebony.json",
+      "file": "beardedbear-bearded-theme-hc-ebony.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-ebony.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-ebony.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-ebony.json.license"
     },
     {
       "rank": 20,
@@ -2024,11 +2024,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-midnight-void.json",
+      "file": "beardedbear-bearded-theme-hc-midnight-void.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-midnightvoid.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-midnight-void.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-midnight-void.json.license"
     },
     {
       "rank": 20,
@@ -2038,11 +2038,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-wonderland-wood.json",
+      "file": "beardedbear-bearded-theme-hc-wonderland-wood.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-wonderland-wood.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-wonderland-wood.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-wonderland-wood.json.license"
     },
     {
       "rank": 20,
@@ -2052,11 +2052,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-brewing-storm.json",
+      "file": "beardedbear-bearded-theme-hc-brewing-storm.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-brewing-storm.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-brewing-storm.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-brewing-storm.json.license"
     },
     {
       "rank": 20,
@@ -2066,11 +2066,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-minuit.json",
+      "file": "beardedbear-bearded-theme-hc-minuit.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-minuit.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-minuit.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-minuit.json.license"
     },
     {
       "rank": 20,
@@ -2080,11 +2080,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-chocolate-espresso.json",
+      "file": "beardedbear-bearded-theme-hc-chocolate-espresso.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-chocolate-espresso.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-chocolate-espresso.json.license"
+      "notice": "themes/beardedbear-bearded-theme-hc-chocolate-espresso.json.license"
     },
     {
       "rank": 20,
@@ -2094,11 +2094,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-hc-flurry.json",
+      "file": "beardedbear-bearded-theme-hc-flurry.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-hc-flurry.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-hc-flurry.json.license",
+      "notice": "themes/beardedbear-bearded-theme-hc-flurry.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2109,11 +2109,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-milkshake-raspberry.json",
+      "file": "beardedbear-bearded-theme-milkshake-raspberry.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-raspberry.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-milkshake-raspberry.json.license",
+      "notice": "themes/beardedbear-bearded-theme-milkshake-raspberry.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2124,11 +2124,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-milkshake-blueberry.json",
+      "file": "beardedbear-bearded-theme-milkshake-blueberry.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-blueberry.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-milkshake-blueberry.json.license",
+      "notice": "themes/beardedbear-bearded-theme-milkshake-blueberry.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2139,11 +2139,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-milkshake-mango.json",
+      "file": "beardedbear-bearded-theme-milkshake-mango.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mango.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-milkshake-mango.json.license",
+      "notice": "themes/beardedbear-bearded-theme-milkshake-mango.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2154,11 +2154,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-milkshake-mint.json",
+      "file": "beardedbear-bearded-theme-milkshake-mint.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-mint.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-milkshake-mint.json.license",
+      "notice": "themes/beardedbear-bearded-theme-milkshake-mint.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2169,11 +2169,11 @@
       "appearance": "light",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-milkshake-vanilla-banana.json",
+      "file": "beardedbear-bearded-theme-milkshake-vanilla-banana.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-milkshake-vanilla.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-milkshake-vanilla-banana.json.license",
+      "notice": "themes/beardedbear-bearded-theme-milkshake-vanilla-banana.json.license",
       "appearanceNote": "Herdr classifies by terminal background; the source UI appearance label differs."
     },
     {
@@ -2184,11 +2184,11 @@
       "appearance": "dark",
       "sourceUiTheme": "hc-black",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-themanopia-experimental.json",
+      "file": "beardedbear-bearded-themanopia-experimental.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-Themanopia.json",
-      "notice": "themes/vscode-beardedbear-bearded-themanopia-experimental.json.license"
+      "notice": "themes/beardedbear-bearded-themanopia-experimental.json.license"
     },
     {
       "rank": 20,
@@ -2198,11 +2198,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-aquarelle-cymbidium.json",
+      "file": "beardedbear-bearded-theme-aquarelle-cymbidium.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-cymbidium.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-aquarelle-cymbidium.json.license"
+      "notice": "themes/beardedbear-bearded-theme-aquarelle-cymbidium.json.license"
     },
     {
       "rank": 20,
@@ -2212,11 +2212,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-aquarelle-hydrangea.json",
+      "file": "beardedbear-bearded-theme-aquarelle-hydrangea.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-hydrangea.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-aquarelle-hydrangea.json.license"
+      "notice": "themes/beardedbear-bearded-theme-aquarelle-hydrangea.json.license"
     },
     {
       "rank": 20,
@@ -2226,11 +2226,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-aquarelle-lilac.json",
+      "file": "beardedbear-bearded-theme-aquarelle-lilac.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-aquarelle-lilac.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-aquarelle-lilac.json.license"
+      "notice": "themes/beardedbear-bearded-theme-aquarelle-lilac.json.license"
     },
     {
       "rank": 20,
@@ -2240,11 +2240,11 @@
       "appearance": "dark",
       "sourceUiTheme": "vs-dark",
       "license": "GPL-3.0-only",
-      "file": "vscode-beardedbear-bearded-theme-oled-experimental.json",
+      "file": "beardedbear-bearded-theme-oled-experimental.json",
       "kind": "port",
       "inferred": [],
       "source": "sources/vscode/BeardedBear.beardedtheme/themes/bearded-theme-oled.json",
-      "notice": "themes/vscode-beardedbear-bearded-theme-oled-experimental.json.license"
+      "notice": "themes/beardedbear-bearded-theme-oled-experimental.json.license"
     }
   ]
 }

@@ -43,7 +43,7 @@ for (const entry of snapshot.entries) {
       if (!profile || Boolean(profile.light) !== (record.appearance === "light")) {
         throw new Error(`Missing or mismatched original profile: ${entry.id}/${index}`);
       }
-      record.file = `original-${profile.name}.json`;
+      record.file = `${profile.name}.json`;
       record.kind = "independent original; not a port";
       palette = originalPalette(profile);
     } else {
